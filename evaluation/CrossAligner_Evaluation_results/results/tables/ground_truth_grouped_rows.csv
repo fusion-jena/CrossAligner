@@ -1,0 +1,185 @@
+ontology_pair,ontology_pair_label,source_file,source_row,left_group,right_group,direction_raw,property_labels_raw,reviewer_agreement,reasons,evidence,evidence_fields
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,3,Nutritive Value,"diet by nutritonal composition;
+DASH diet;
+gluten free diet:
+ketogenic diet;
+low-carbohydrate, high-protien, high fat diet rural diet",ONS → MeSH,"checked_for,
+has,
+characterized_by,
+Defines,
+defines_nutritional_composition_of",5.0,"1. Looked for them before preparing a diet
+2. they both describe the quality of a food
+3. diet needs information about nutritions","MeSH Nutritive Value concerns the nutrient contribution of food to diet. ONS diet by nutritional composition is explicitly defined by nutritional presence or absence.
+A diet is a collection of food types/items, while nutritive value indicates the nutrient contribution of food to a diet.","MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,4,Nutritive Value,food material and food products,ONS → MeSH,Has,3.0,"1. The food material has a specific nutritive value.
+2. food material has nutritive value",,"MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,5,Nutritive Value,"Food product
+Animal food product,
+animal seafood product,
+fish food product,
+fungus food product,
+plant food product,",MeSH → OccO,"has,
+Derives,
+Define,
+given_to,
+assigned_to",6.0,"1. assigned to the food products
+2. food product has nutritive value",,"MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,6,Food Contamination,"Food product
+Animal food product,
+animal seafood product,
+fish food product,
+fungus food product,
+plant food product,",MeSH → OccO,"affects,
+risk,
+Has,
+occurs_in (RO)
+monitor_for",3.0,"1. Food contamination affects food products
+2. The food product has a certain contamination.
+3. all food can be contaminated","Food contamination: The presence in food of harmful, unpalatable, or otherwise objectionable foreign substances, e.g. chemicals, microorganisms or diluents, before, during, or after processing or storage.","MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,7,Food Quality,food material/ food products,MeSH → OccO,"Has,
+has_quality, (RO)
+check_by,
+assessed_by,
+evaluates,
+uses_food_label_information",5.0,"1. Food material /food products check food quality
+2. Food material /food products has food quality
+3. Food products (including plant, animal, fish, and fungal products) are systematically evaluated and assessed for freshness, safety, and quality attributes.","Food quality definition: Ratings of the characteristics of food including flavor, appearance, nutritional content, and the amount of microbial and chemical contamination.
+Food material for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.","MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,8,Food Labelling,food products/ food material,MeSH → OccO,"are_for, applies_to, give_information, according_to, have, check_for",5.0,"1. Food labelling gives information of food product.
+2. Food product have food label.
+3. Check the label before preparing a diet","Food Labelling comment: Use of written, printed, or graphic materials upon or accompanying a food or its container or wrapper. The concept includes ingredients, NUTRITIONAL VALUE, directions, warnings, and other relevant information.
+Food material for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.","MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,9,Food Technology,food products,MeSH → OccO,"processed_by, preserved_using",2.0,"1.
+2.
+3.",,"MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,10,Food Industry,"food material,",MeSH → OccO,"processed_by,
+produced_by,
+basic_resource_for_functionality,
+used_by,
+supplied_by,",5.0,"1. Food Industry process food material
+2.
+3.","Food Industry Comment: The industry concerned with processing, preparing, preserving, distributing, and serving of foods and beverages.
+Food material comment: for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.","MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,11,Food Industry,food products,MeSH → OccO,"processed_by,
+includes,
+produced/distributes",5.0,"1. Food Industry process food products.
+2.
+3.",,"MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,12,Food Industry/Food Technology,Food product/food materials,MeSH → OccO,"processed_by,
+produced_by",,,,
+mesh_ons,MeSH–ONS,MeSH_ONS.ods,13,Public Heath,diet,MeSH → OccO,improves/ contributes_to,2.0,"1. Diets improves the public health (Sven, Bala)",Public health comment and diet hierarchy like DASH diet clinically prescribed diet ketogenic diet,"MeSH definition; hierarchy;
+ONS definitions; hierarchy."
+occo_mesh,OccO–MeSH,MeSH_OccO.ods,3,Food Industry,"Food preparation or serving related occupation holder
+chef or head cook;
+cook;
+cook, institution or cafeteria;
+cook, restaurant;
+bartender;
+waiter or waitress;
+food or beverage serving worker;",OccO → MeSH,"participates_in,
+works_in,
+has_occupation_in,
+involved_in",3.0,"1. food preparation or serving related occupation holder works in food industry (Pascal & Tarek)
+2. These occupations, including chefs, cooks, bartenders, and waitstaff, make up the active workforce employed within the food and beverage industry sector. (Suresh)","MeSH Food Industry is defined as the industry concerned with processing, preparing, preserving, distributing, and serving foods and beverages.
+OccO concepts represent food-preparation and serving occupations.","MeSH definition; hierarchy;
+OccO labels; definitions; hierarchy."
+occo_mesh,OccO–MeSH,MeSH_OccO.ods,4,Food Quality,"cook, institution or cafeteria;
+Cook, restaurant;
+quality control analysis;",MeSH → OccO,"assessed_by,
+checked_by,
+maintain_by,
+responsible_for,
+realize_by,
+evaluates_by,
+ensure_by,
+monitor_by",6.0,"1. Chef will check this details before preparing food. (Vishva)
+2. cook, institution or cafeteria;  Cook, restaurant;  responsible for food, therefore needs to be able to see/taste/smell food quality. (Pascal)
+3. OccO classes contains the skill quality control analysis, which concerns evaluating quality and performance. (Suresh)","MeSH Food Quality: Ratings of the characteristics of food including flavor, appearance, nutritional content, and the amount of microbial and chemical contamination..
+OccO quality control analysis: A skill realized in conducting tests and inspections of products, services, or processes to evaluate quality or performance.
+The class cook, institution or cafeteria;
+Cook, restaurant; contain this skill
+quality control analysis, monitoring, problem sensitivity in their restrictions.",MeSH definition; MeSH hierarchy; OccO definition; OccO restrictions
+occo_mesh,OccO–MeSH,MeSH_OccO.ods,5,Food Contamination,"cook, institution or cafeteria;
+Cook, restaurant;
+quality control analysis;
+problem sensitivity;",MeSH → OccO,"check_by,
+monitors_by,
+prevent_by,
+detect_by
+Managed_by",3.0,"1. Chef will check this details before preparing food.
+2. Chef can detect food contamination.
+3. will check details for cooking diet food in hospitals, …","MeSH Food Contamination is the presence of harmful, unpalatable, or objectionable foreign substances in food before, during, or after processing or storage.
+OccO cook classes prepare food and include quality-control/problem-detection and monitoring skills.",MeSH definition; MeSH parent Food Quality/Public Health; OccO definitions; OccO restrictions
+occo_mesh,OccO–MeSH,MeSH_OccO.ods,6,Nutritive Value,"chef or head cook;
+cook, institution or cafeteria;
+Cook, restaurant",MeSH → OccO,"check_by,
+consider_by,
+control_by,
+managed_by",2.0,"1. Chef will check this details before preparing food.
+2. will check details for cooking diet food in hospitals, ...","MeSH Nutritive Value indicates the contribution of a food to the nutrient content of the diet and can be affected by handling, storage, and processing.
+OccO chef/cook classes prepare, season, cook, and sometimes plan menus or order supplies.",MeSH definition; MeSH parent Food Quality; OccO definitions
+occo_mesh,OccO–MeSH,MeSH_OccO.ods,7,Food Labeling,"reading comprehension;
+chef or head cook;
+cook, institution or cafeteria;
+Cook, restaurant",MeSH → OccO,"check_by,
+read_by,
+understands_by,
+uses_food_label_information",6.0,"1. Chef will check this details before preparing food.
+2. will check details for cooking diet food in hospitals, …
+3. understand content of label for food preparation planning (i.e. recipes for different diets)","MeSH Food Labeling includes written, printed, or graphic information on food containers, including ingredients, nutritional value, directions, and warnings.
+OccO class has reading comprehension skill realized in understanding written sentences and paragraphs in work related documents. → suggesting the
+ability to understand written food-related information.",MeSH definition; OccO skill definition; OccO occupation definitions
+occo_ons,OccO–ONS,OccO_ONS.ods,3,"Management +
+Food preparation role
+chef or head cook;
+cook;
+cook, institution or cafeteria;
+cook, restaurant;","diet by nutritonal composition;
+DASH diet;
+gluten free diet:
+ketogenic diet;
+low-carbohydrate, high-protien, high fat diet rural diet",OccO → ONS,"checked_for,
+Needs to know,
+Implemented,
+Prepares",3.0,"1. cooks need to know diets, servers in for example hospitals need to double check if patients get correct food according to their diet.
+2. Chef will  prepare the diet","ONS diet is a collection of food items with nutritional, safety, organoleptic, and social characteristics. Chef/head cook may plan menu items and prepare food. Or cook, institution or cafeteria; cook, restaurant; prepare food","OccO definition; hierarchy;
+ONS labels; definitions; hierarchy."
+occo_ons,OccO–ONS,OccO_ONS.ods,4,"Management +
+Food preparation role
+chef or head cook;
+cook;
+cook, institution or cafeteria;
+cook, restaurant;",food products,OccO → ONS,"Prepare,
+Create,
+Handles,
+cooks",5.0,"1. The cook creates/cooks/prepares/realizes the ""meal"" (or food product).
+2.  chef or head cook;  cook;  cook, institution or cafeteria;  cook, restaurant; prepares food products","ONS food product is processed food intended to be consumed. OccO concepts explicitly prepares, seasons, and cooks foods.","MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."
+occo_ons,OccO–ONS,OccO_ONS.ods,5,"Management +
+Food preparation role
+chef or head cook;
+cook;
+cook, institution or cafeteria;
+cook, restaurant;",food material,OccO → ONS,uses,,,,
+occo_ons,OccO–ONS,OccO_ONS.ods,6,"Management +
+Food preparation role
+chef or head cook;
+cook;
+cook, institution or cafeteria;
+cook, restaurant;",All food products,OccO → ONS,Prepare / cook,,,,
+occo_ons,OccO–ONS,OccO_ONS.ods,7,food/beverages serving worker,"Food product
+Animal food product,
+animal seafood product,
+fish food product,
+fungus food product,
+plant food product,",OccO → ONS,served,2.0,1. Food product served by waiter/ waitress/ bartender,,"MeSH definition; hierarchy;
+ONS labels; definitions; hierarchy."

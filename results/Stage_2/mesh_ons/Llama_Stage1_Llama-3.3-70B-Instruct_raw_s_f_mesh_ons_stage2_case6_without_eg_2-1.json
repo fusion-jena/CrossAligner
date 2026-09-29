@@ -1,0 +1,583 @@
+[
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "Food Contamination",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food product are affects by food contamination.\"}### \n\nConcept 1:\nconcept: environmental pollution\nparents: pollution\nchildrens: environmental outdoor pollution\nsynonyms: (none)\ndefinitions: the contamination of the environment resulting from human activities.\nverbalized axioms: (none)\n\n\n### Concept 2:\nconcept: pollution source\nparents:"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "Food Contamination",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "target_label": "animal food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal food product can be affected by food contamination.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "Food Contamination",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "target_label": "vegan diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegan diet avoid food contamination.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "Food Contamination",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "target_label": "halal diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"halal diet prevents food contamination.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food product is described by food labeling.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "target_label": "plant food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"plant food product is identified by food labeling.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegetarian food material is identified by food labeling.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "target_label": "animal food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal food product is subject to food labeling.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "target_label": "diet by food organism",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by food organism is facilitated by food labeling.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "target_label": "pescetarian diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"pescetarian diet involves food labeling about type of diet.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "target_label": "non-pork diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"low-carbohydrate, high-protien, high fat diet uses food labeling information.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "Food Labeling",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "target_label": "halal diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food product is developed by food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "target_label": "plant food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"plant food product applies food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001046",
+    "target_label": "animal seafood product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal seafood product utilizes food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001143",
+    "target_label": "fungus food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"fungus food product utilizes food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001248",
+    "target_label": "fish food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"fish food product uses food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "target_label": "food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food material is transformed by food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegetarian food material is a part of food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "target_label": "animal food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal food product applies food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "target_label": "diet by nutritional composition",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by nutritional composition is informed by food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"prescribed diet is based on food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "target_label": "vegan diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegan diet relates to food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"low-carbohydrate, high-protien, high fat diet utilzed food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "target_label": "halal diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"halal diet is informed by food technology.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "Food Technology",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "source_label": "Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegetarian food material is a part of the industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "source_label": "Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420164",
+    "target_label": "animal material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal material is used in the industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "source_label": "Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "target_label": "pescetarian diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"pescetarian diet excludes products from the industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food product has nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "target_label": "plant food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"plant food product has nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001143",
+    "target_label": "fungus food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"fungus food products contributes to the nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001184",
+    "target_label": "algae material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"algae material can have nutritional value.\"} */\n\n\n### Concept 1:\nconcept: food adulteration\nparents: food contamination\nchildrens: (none)\nsynonyms: adulteration, food; adulterations; adulterations, food; contamination; contamination; food adulteration\ndefinitions: the addition to food of any substance"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegetarian food material provides nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "target_label": "animal food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal food product provide nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420164",
+    "target_label": "animal material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal material provides nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "target_label": "diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet is determined by its nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "target_label": "diet by nutritional composition",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by nutritional composition is determined by its nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"prescribed diet is determined by nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "target_label": "diet by food organism",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by food organism is influenced by the nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "target_label": "pescetarian diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"a pescetarian diet relies on the nutritive value of the plant food product.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "target_label": "non-pork diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"non-pork diet is determined by nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000036",
+    "target_label": "ketogenic diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"ketogenic diet provides nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"low-carbohydrate, high-protien}, high fat diet affects the nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000043",
+    "target_label": "gluten free diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"gluten free diet is concerned with the nutritive value.\"} is incorrect\n\nA better answer would be:\n{\"related\": \"yes\", \"relationship\": \"gluten free diet often considers the nutrive value of food.\"}\n\nHere is the final answer:\n\n{\"related\": \"yes\", \"relationship\": \"gluten free diet often considers the nut"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "Nutritive Value",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"rural diet is influenced by the nutritive value.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "source_label": "Public Health",
+    "target": "http://purl.obolibrary.org/obo/ONS_0000082",
+    "target_label": "clinically prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"clinically prescribed diet affects public health.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "source_label": "Public Health",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "target_label": "diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet is monitored by public health.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "source_label": "Public Health",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "target_label": "diet by nutritional composition",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by nutritional composition may promote public health.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "source_label": "Public Health",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"prescribed diet is monitored by public health.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "source_label": "Public Health",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000036",
+    "target_label": "ketogenic diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "source_label": "Public Health",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"low-carbohydrate, high-protien, high fat diet is monitored by public health.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food product is manufactured by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "target_label": "plant food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"plant food product is part of the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001046",
+    "target_label": "animal seafood product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal seafood product is produced by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "target_label": "animal food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal food product is manufactured by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420116",
+    "target_label": "organism material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"organism material is processed by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420164",
+    "target_label": "animal material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"animal material is processed by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "target_label": "diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet is supported by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "target_label": "diet by nutritional composition",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by nutritional composition is supported by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"prescribed diet can be recomend by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "target_label": "diet by food organism",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by food organism is served by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "target_label": "vegan diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegan diet is part of the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "target_label": "pescetarian diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"pescetarian diet is accommodated by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "target_label": "non-pork diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000037",
+    "target_label": "DASH diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"dash diet is promoted by the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "target_label": "halal diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food industry caters to people following a halal diet.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "Food Industry",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"rural diet is part of the food industry.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food product affects food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "target_label": "plant food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"plant food product affects food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001248",
+    "target_label": "fish food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"fish food product affect food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegetarian food material contributes to food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420116",
+    "target_label": "organism material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"organism material can affect food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "target_label": "diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet is evaluated based on food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "target_label": "diet by nutritional composition",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"diet by nutritional composition affects food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "target_label": "vegan diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"vegan diet is concerned with food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "target_label": "pescetarian diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"pescetarian diet affects food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "target_label": "non-pork diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000036",
+    "target_label": "ketogenic diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"ketogenic diet can affect food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"low-carbohydrate, high-protien, high fat diet affects the food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "target_label": "halal diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"halal diet involves maintaining food quality.\"}"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "Food Quality",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"} ```json\n{\"related\": \"no\", \"relationship\": \"\"}```"
+  }
+]

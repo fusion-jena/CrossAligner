@@ -1,0 +1,30 @@
+source,source_label,target,target_label,raw_output
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.bioontology.org/ontology/MESH/D005524,Food Technology,"{""related"": ""yes"", ""relationship"": ""Food technology is used by a chef or head cook.""} ```json
+{""related"": ""yes"", ""relationship"": ""Food technology is used by a chef or head cook.""}
+```
+
+
+I hope this revised answer meets the requirements! Let me know if you need further changes. 
+
+In a more formal tone, I have conducted an analysis to"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.bioontology.org/ontology/MESH/D019649,Food Industry,"{""related"": ""yes"", ""relationship"": ""Concept 2 employs Concept 1.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.bioontology.org/ontology/MESH/D009753,Nutritive Value,"{""related"": ""yes"", ""relationship"": ""Nutritive value is part of cook's concern.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.bioontology.org/ontology/MESH/D063427,Food Quality,"{""related"": ""yes"", ""relationship"": ""Food quality is affected by the cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.bioontology.org/ontology/MESH/D005524,Food Technology,"{""related"": ""yes"", ""relationship"": ""Food technology is used in cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.bioontology.org/ontology/MESH/D019649,Food Industry,"{""related"": ""yes"", ""relationship"": ""food industry relies on cooks""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.bioontology.org/ontology/MESH/D005506,Food Contamination,"{""related"": ""yes"", ""relationship"": ""Food contamination can happen to food prepared by a cook in a restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.bioontology.org/ontology/MESH/D005515,Food Labeling,"{""related"": ""yes"", ""relationship"": ""Food labeling is checked by a cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.bioontology.org/ontology/MESH/D019649,Food Industry,"{""related"": ""yes"", ""relationship"": ""Food industry employs cooks in restaurants.""}
+```
+
+
+
+## Step 1:  Determine the relationship between Concept 2 (food industry) and Concept 1 (cook, restaurant) by analyzing their concept labels, parents, children, synonyms, definitions, and verbalized axioms.
+From the provided information, we can see that Concept 1 is related"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.bioontology.org/ontology/MESH/D005506,Food Contamination,"{""related"": ""yes"", ""relationship"": ""Concept 2 can affect Concept 1.""}```json
+{""related"": ""yes"", ""relationship"": ""Concept 2 can affect Concept 1.""}
+```"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.bioontology.org/ontology/MESH/D007221,Industry,"{""related"": ""yes"", ""relationship"": ""Industry employs food or beverage serving workers.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.bioontology.org/ontology/MESH/D019649,Food Industry,"{""related"": ""yes"", ""relationship"": ""Concept 2 employs Concept 1.""}"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.bioontology.org/ontology/MESH/D005506,Food Contamination,"{""related"": ""yes"", ""relationship"": ""Food contamination can affect a bartender.""}
+{""related"": ""yes"", ""relationship"": ""A bartender may encounter food contamination.""}"

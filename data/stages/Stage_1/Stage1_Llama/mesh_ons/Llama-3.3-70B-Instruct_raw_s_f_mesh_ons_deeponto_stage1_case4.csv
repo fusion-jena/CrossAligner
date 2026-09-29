@@ -1,0 +1,84 @@
+source,target,source_label,target_label
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/FOODON_00001002,Food Contamination,food product
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/FOODON_00004242,Food Contamination,animal food product
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/ONS_1000021,Food Contamination,vegan diet
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/ONS_1000052,Food Contamination,halal diet
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/FOODON_00001002,Food Labeling,food product
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/FOODON_00001015,Food Labeling,plant food product
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/FOODON_00003194,Food Labeling,vegetarian food material
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/FOODON_00004242,Food Labeling,animal food product
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000019,Food Labeling,diet by food organism
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000026,Food Labeling,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000028,Food Labeling,non-pork diet
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000040,Food Labeling,"low-carbohydrate, high-protien, high fat diet"
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000052,Food Labeling,halal diet
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00001002,Food Technology,food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00001015,Food Technology,plant food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00001046,Food Technology,animal seafood product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00001143,Food Technology,fungus food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00001248,Food Technology,fish food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00002403,Food Technology,food material
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00003194,Food Technology,vegetarian food material
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00004242,Food Technology,animal food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000005,Food Technology,diet by nutritional composition
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000007,Food Technology,prescribed diet
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000021,Food Technology,vegan diet
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000040,Food Technology,"low-carbohydrate, high-protien, high fat diet"
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000052,Food Technology,halal diet
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000066,Food Technology,rural diet
+http://purl.bioontology.org/ontology/MESH/D007221,http://purl.obolibrary.org/obo/FOODON_00003194,Industry,vegetarian food material
+http://purl.bioontology.org/ontology/MESH/D007221,http://purl.obolibrary.org/obo/FOODON_03420164,Industry,animal material
+http://purl.bioontology.org/ontology/MESH/D007221,http://purl.obolibrary.org/obo/ONS_1000026,Industry,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00001002,Nutritive Value,food product
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00001015,Nutritive Value,plant food product
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00001143,Nutritive Value,fungus food product
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00001184,Nutritive Value,algae material
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00003194,Nutritive Value,vegetarian food material
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00004242,Nutritive Value,animal food product
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_03420164,Nutritive Value,animal material
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000001,Nutritive Value,diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000005,Nutritive Value,diet by nutritional composition
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000007,Nutritive Value,prescribed diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000019,Nutritive Value,diet by food organism
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000026,Nutritive Value,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000028,Nutritive Value,non-pork diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000036,Nutritive Value,ketogenic diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000040,Nutritive Value,"low-carbohydrate, high-protien, high fat diet"
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000043,Nutritive Value,gluten free diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000066,Nutritive Value,rural diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_0000082,Public Health,clinically prescribed diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000001,Public Health,diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000005,Public Health,diet by nutritional composition
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000007,Public Health,prescribed diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000036,Public Health,ketogenic diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000040,Public Health,"low-carbohydrate, high-protien, high fat diet"
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_00001002,Food Industry,food product
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_00001015,Food Industry,plant food product
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_00001046,Food Industry,animal seafood product
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_00004242,Food Industry,animal food product
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_03420116,Food Industry,organism material
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_03420164,Food Industry,animal material
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000001,Food Industry,diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000005,Food Industry,diet by nutritional composition
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000007,Food Industry,prescribed diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000019,Food Industry,diet by food organism
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000021,Food Industry,vegan diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000026,Food Industry,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000028,Food Industry,non-pork diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000037,Food Industry,DASH diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000052,Food Industry,halal diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000066,Food Industry,rural diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00001002,Food Quality,food product
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00001015,Food Quality,plant food product
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00001248,Food Quality,fish food product
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00003194,Food Quality,vegetarian food material
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_03420116,Food Quality,organism material
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000001,Food Quality,diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000005,Food Quality,diet by nutritional composition
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000021,Food Quality,vegan diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000026,Food Quality,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000028,Food Quality,non-pork diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000036,Food Quality,ketogenic diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000040,Food Quality,"low-carbohydrate, high-protien, high fat diet"
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000052,Food Quality,halal diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000066,Food Quality,rural diet

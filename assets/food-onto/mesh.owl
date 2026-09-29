@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.bioontology.org/ontology/MESH/"
+     xml:base="http://purl.bioontology.org/ontology/MESH/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:umls="http://bioportal.bioontology.org/ontologies/umls/">
+    <owl:Ontology rdf:about="http://purl.bioontology.org/ontology/MESH/"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://bioportal.bioontology.org/ontologies/umls/cui -->
+
+    <owl:AnnotationProperty rdf:about="http://bioportal.bioontology.org/ontologies/umls/cui"/>
+    
+
+
+    <!-- http://bioportal.bioontology.org/ontologies/umls/tui -->
+
+    <owl:AnnotationProperty rdf:about="http://bioportal.bioontology.org/ontologies/umls/tui"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#altLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#altLabel"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#definition"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#prefLabel -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#prefLabel"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D004778 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D004778">
+        <umls:cui>C0014407</umls:cui>
+        <umls:tui>T091</umls:tui>
+        <skos:definition xml:lang="en">Natural and man-made environments and their impact on public health.</skos:definition>
+        <skos:prefLabel xml:lang="en">Environment and Public Health</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D005506 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D005506">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011634"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D063427"/>
+        <umls:cui>C0016454</umls:cui>
+        <umls:cui>C0016462</umls:cui>
+        <umls:tui>T067</umls:tui>
+        <umls:tui>T068</umls:tui>
+        <skos:altLabel xml:lang="en">Adulteration, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Adulterations, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Contamination, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Contaminations, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Food Adulteration</skos:altLabel>
+        <skos:altLabel xml:lang="en">Food Adulterations</skos:altLabel>
+        <skos:altLabel xml:lang="en">Food Contaminations</skos:altLabel>
+        <skos:definition xml:lang="en">The presence in food of harmful, unpalatable, or otherwise objectionable foreign substances, e.g. chemicals, microorganisms or diluents, before, during, or after processing or storage.</skos:definition>
+        <skos:prefLabel xml:lang="en">Food Contamination</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D005515 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D005515">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D005524"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D007221"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D019649"/>
+        <umls:cui>C0016475</umls:cui>
+        <umls:cui>C0028711</umls:cui>
+        <umls:tui>T057</umls:tui>
+        <umls:tui>T068</umls:tui>
+        <skos:altLabel xml:lang="en">Food Labelling</skos:altLabel>
+        <skos:altLabel xml:lang="en">Food Product Labeling</skos:altLabel>
+        <skos:altLabel xml:lang="en">Labeling, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Labeling, Food Product</skos:altLabel>
+        <skos:altLabel xml:lang="en">Labeling, Nutrition</skos:altLabel>
+        <skos:altLabel xml:lang="en">Labelling, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutrition Labeling</skos:altLabel>
+        <skos:altLabel xml:lang="en">Product Labeling, Food</skos:altLabel>
+        <skos:definition xml:lang="en">Use of written, printed, or graphic materials upon or accompanying a food or its container or wrapper. The concept includes ingredients, NUTRITIONAL VALUE, directions, warnings, and other relevant information.</skos:definition>
+        <skos:prefLabel xml:lang="en">Food Labeling</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D005524 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D005524">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D019649"/>
+        <umls:cui>C0016492</umls:cui>
+        <umls:cui>C0920526</umls:cui>
+        <umls:tui>T090</umls:tui>
+        <skos:altLabel xml:lang="en">Food Science</skos:altLabel>
+        <skos:altLabel xml:lang="en">Food Sciences</skos:altLabel>
+        <skos:altLabel xml:lang="en">Science, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Sciences, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Technology, Food</skos:altLabel>
+        <skos:definition xml:lang="en">The application of knowledge to the food industry.</skos:definition>
+        <skos:prefLabel xml:lang="en">Food Technology</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D006281 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D006281">
+        <umls:cui>C0018722</umls:cui>
+        <umls:tui>T091</umls:tui>
+        <skos:altLabel xml:lang="en">Health Occupation</skos:altLabel>
+        <skos:altLabel xml:lang="en">Health Profession</skos:altLabel>
+        <skos:altLabel xml:lang="en">Health Professions</skos:altLabel>
+        <skos:altLabel xml:lang="en">Profession, Health</skos:altLabel>
+        <skos:altLabel xml:lang="en">Professions, Health</skos:altLabel>
+        <skos:definition xml:lang="en">Professions or other business activities directed to the cure and prevention of disease. For occupations of medical personnel who are not physicians but who are working in the fields of medical technology, physical therapy, etc., ALLIED HEALTH OCCUPATIONS is available.</skos:definition>
+        <skos:prefLabel xml:lang="en">Health Occupations</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D007221 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D007221">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D013676"/>
+        <umls:cui>C0021267</umls:cui>
+        <umls:cui>C0039567</umls:cui>
+        <umls:tui>T057</umls:tui>
+        <umls:tui>T078</umls:tui>
+        <skos:altLabel xml:lang="en">Industries</skos:altLabel>
+        <skos:altLabel xml:lang="en">Sector, Tertiary</skos:altLabel>
+        <skos:altLabel xml:lang="en">Sectors, Tertiary</skos:altLabel>
+        <skos:altLabel xml:lang="en">Tertiary Sector</skos:altLabel>
+        <skos:altLabel xml:lang="en">Tertiary Sectors</skos:altLabel>
+        <skos:definition xml:lang="en">Any enterprise centered on the processing, assembly, production, or marketing of a line of products, services, commodities, or merchandise, in a particular field often named after its principal product. Examples include the automobile, fishing, music, publishing, insurance, and textile industries.</skos:definition>
+        <skos:prefLabel xml:lang="en">Industry</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D009753 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D009753">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D010829"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D063427"/>
+        <umls:cui>C0028722</umls:cui>
+        <umls:cui>C3489446</umls:cui>
+        <umls:tui>T080</umls:tui>
+        <skos:altLabel xml:lang="en">Availability, Biologic Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Availability, Biological Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Availability, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Availability, Nutritional Biologic</skos:altLabel>
+        <skos:altLabel xml:lang="en">Availability, Nutritional Biological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Biologic Availability, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Biologic Nutritional Availability</skos:altLabel>
+        <skos:altLabel xml:lang="en">Biological Availability, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Biological Nutritional Availability</skos:altLabel>
+        <skos:altLabel xml:lang="en">Food Quality, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutrition Value</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutrition Values</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Availability</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Availability, Biologic</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Availability, Biological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Biologic Availability</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Biological Availability</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Food Quality</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Quality</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Value</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritional Values</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritive Quality</skos:altLabel>
+        <skos:altLabel xml:lang="en">Nutritive Values</skos:altLabel>
+        <skos:altLabel xml:lang="en">Quality, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Quality, Nutritional Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Quality, Nutritive</skos:altLabel>
+        <skos:altLabel xml:lang="en">Value, Nutrition</skos:altLabel>
+        <skos:altLabel xml:lang="en">Value, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Value, Nutritive</skos:altLabel>
+        <skos:altLabel xml:lang="en">Values, Nutrition</skos:altLabel>
+        <skos:altLabel xml:lang="en">Values, Nutritional</skos:altLabel>
+        <skos:altLabel xml:lang="en">Values, Nutritive</skos:altLabel>
+        <skos:definition xml:lang="en">An indication of the contribution of a food to the nutrient content of the diet. This value depends on the quantity of a food which is digested and absorbed and the amounts of the essential nutrients (protein, fat, carbohydrate, minerals, vitamins) which it contains. This value can be affected by soil and growing conditions, handling and storage, and processing.</skos:definition>
+        <skos:prefLabel xml:lang="en">Nutritive Value</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D010829 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D010829">
+        <umls:cui>C0031845</umls:cui>
+        <umls:cui>C2350828</umls:cui>
+        <umls:tui>T039</umls:tui>
+        <skos:altLabel xml:lang="en">Concept, Physiological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Concepts, Physiological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Phenomena, Physiological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Phenomenas, Physiological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Phenomenon, Physiological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Physiological Concept</skos:altLabel>
+        <skos:altLabel xml:lang="en">Physiological Concepts</skos:altLabel>
+        <skos:altLabel xml:lang="en">Physiological Phenomenon</skos:altLabel>
+        <skos:altLabel xml:lang="en">Physiological Process</skos:altLabel>
+        <skos:altLabel xml:lang="en">Physiological Processes</skos:altLabel>
+        <skos:altLabel xml:lang="en">Process, Physiological</skos:altLabel>
+        <skos:altLabel xml:lang="en">Processes, Physiological</skos:altLabel>
+        <skos:definition xml:lang="en">The functions and properties of living organisms, including both the physical and chemical factors and processes, supporting life in single- or multi-cell organisms from their origin through the progression of life.</skos:definition>
+        <skos:prefLabel xml:lang="en">Physiological Phenomena</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D011154 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011154">
+        <umls:cui>C0032661</umls:cui>
+        <umls:cui>C0032685</umls:cui>
+        <umls:cui>C0086833</umls:cui>
+        <umls:tui>T081</umls:tui>
+        <umls:tui>T102</umls:tui>
+        <skos:altLabel xml:lang="en">Characteristic, Population</skos:altLabel>
+        <skos:altLabel xml:lang="en">Characteristics, Population</skos:altLabel>
+        <skos:altLabel xml:lang="en">Heterogeneity, Population</skos:altLabel>
+        <skos:altLabel xml:lang="en">Population Characteristic</skos:altLabel>
+        <skos:altLabel xml:lang="en">Population Heterogeneity</skos:altLabel>
+        <skos:altLabel xml:lang="en">Population Statistics</skos:altLabel>
+        <skos:altLabel xml:lang="en">Statistics, Population</skos:altLabel>
+        <skos:definition xml:lang="en">Qualities and characterization of various types of populations within a social or geographic group, with emphasis on demography, health status, and socioeconomic factors.</skos:definition>
+        <skos:prefLabel xml:lang="en">Population Characteristics</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D011634 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D011634">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D004778"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D006281"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011154"/>
+        <umls:cui>C0014410</umls:cui>
+        <umls:cui>C0034019</umls:cui>
+        <umls:tui>T091</umls:tui>
+        <skos:altLabel xml:lang="en">Community Health</skos:altLabel>
+        <skos:altLabel xml:lang="en">Environment, Preventive Medicine &amp; Public Health</skos:altLabel>
+        <skos:altLabel xml:lang="en">Environment, Preventive Medicine and Public Health</skos:altLabel>
+        <skos:altLabel xml:lang="en">Health, Community</skos:altLabel>
+        <skos:altLabel xml:lang="en">Health, Public</skos:altLabel>
+        <skos:definition xml:lang="en">Branch of medicine concerned with the prevention and control of disease and disability, and the promotion of physical and mental health of the population on the international, national, state, or municipal level.</skos:definition>
+        <skos:prefLabel xml:lang="en">Public Health</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D013676 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D013676">
+        <umls:cui>C0039426</umls:cui>
+        <umls:tui>T078</umls:tui>
+        <skos:definition xml:lang="en">The science and application of techniques for the extraction of raw materials, provision of services, manufacture of goods, cultivation of crops, and raising of livestock.</skos:definition>
+        <skos:prefLabel xml:lang="en">Technology, Industry, and Agriculture</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D019649 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D019649">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D007221"/>
+        <umls:cui>C0524863</umls:cui>
+        <umls:tui>T057</umls:tui>
+        <skos:altLabel xml:lang="en">Food Industries</skos:altLabel>
+        <skos:altLabel xml:lang="en">Industries, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Industry, Food</skos:altLabel>
+        <skos:definition xml:lang="en">The industry concerned with processing, preparing, preserving, distributing, and serving of foods and beverages.</skos:definition>
+        <skos:prefLabel xml:lang="en">Food Industry</skos:prefLabel>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.bioontology.org/ontology/MESH/D063427 -->
+
+    <owl:Class rdf:about="http://purl.bioontology.org/ontology/MESH/D063427">
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D005524"/>
+        <rdfs:subClassOf rdf:resource="http://purl.bioontology.org/ontology/MESH/D011634"/>
+        <umls:cui>C0920525</umls:cui>
+        <umls:tui>T080</umls:tui>
+        <skos:altLabel xml:lang="en">Food Qualities</skos:altLabel>
+        <skos:altLabel xml:lang="en">Qualities, Food</skos:altLabel>
+        <skos:altLabel xml:lang="en">Quality, Food</skos:altLabel>
+        <skos:definition xml:lang="en">Ratings of the characteristics of food including flavor, appearance, nutritional content, and the amount of microbial and chemical contamination.</skos:definition>
+        <skos:prefLabel xml:lang="en">Food Quality</skos:prefLabel>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

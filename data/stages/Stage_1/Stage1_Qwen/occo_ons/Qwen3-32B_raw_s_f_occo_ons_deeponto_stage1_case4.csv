@@ -1,0 +1,35 @@
+source,target,source_label,target_label
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/FOODON_00001015,food preparation or serving related occupation holder,plant food product
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/FOODON_00001248,food preparation or serving related occupation holder,fish food product
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/FOODON_00002403,food preparation or serving related occupation holder,food material
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/FOODON_00003194,food preparation or serving related occupation holder,vegetarian food material
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/FOODON_03420116,food preparation or serving related occupation holder,organism material
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/ONS_1000005,food preparation or serving related occupation holder,diet by nutritional composition
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/ONS_1000007,food preparation or serving related occupation holder,prescribed diet
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/ONS_1000040,food preparation or serving related occupation holder,"low-carbohydrate, high-protien, high fat diet"
+http://purl.obolibrary.org/obo/OCCO_35000000,http://purl.obolibrary.org/obo/ONS_1000066,food preparation or serving related occupation holder,rural diet
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.obolibrary.org/obo/FOODON_00001046,chef or head cook,animal seafood product
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.obolibrary.org/obo/FOODON_00001143,chef or head cook,fungus food product
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.obolibrary.org/obo/FOODON_00002403,chef or head cook,food material
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.obolibrary.org/obo/ONS_0000082,chef or head cook,clinically prescribed diet
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.obolibrary.org/obo/ONS_1000052,chef or head cook,halal diet
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.obolibrary.org/obo/ONS_1000066,chef or head cook,rural diet
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.obolibrary.org/obo/FOODON_00001046,cook,animal seafood product
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.obolibrary.org/obo/FOODON_00002403,cook,food material
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.obolibrary.org/obo/ONS_1000019,cook,diet by food organism
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.obolibrary.org/obo/ONS_1000028,cook,non-pork diet
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.obolibrary.org/obo/ONS_1000066,cook,rural diet
+http://purl.obolibrary.org/obo/OCCO_35201200,http://purl.obolibrary.org/obo/ONS_0000082,"cook, institution or cafeteria",clinically prescribed diet
+http://purl.obolibrary.org/obo/OCCO_35201400,http://purl.obolibrary.org/obo/FOODON_00001002,"cook, restaurant",food product
+http://purl.obolibrary.org/obo/OCCO_35201400,http://purl.obolibrary.org/obo/ONS_1000001,"cook, restaurant",diet
+http://purl.obolibrary.org/obo/OCCO_35201400,http://purl.obolibrary.org/obo/ONS_1000007,"cook, restaurant",prescribed diet
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.obolibrary.org/obo/FOODON_00001143,food or beverage serving worker,fungus food product
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.obolibrary.org/obo/FOODON_00002403,food or beverage serving worker,food material
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.obolibrary.org/obo/FOODON_00004242,food or beverage serving worker,animal food product
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.obolibrary.org/obo/ONS_1000007,food or beverage serving worker,prescribed diet
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.obolibrary.org/obo/ONS_1000040,food or beverage serving worker,"low-carbohydrate, high-protien, high fat diet"
+http://purl.obolibrary.org/obo/OCCO_35301100,http://purl.obolibrary.org/obo/FOODON_00002403,bartender,food material
+http://purl.obolibrary.org/obo/OCCO_35301100,http://purl.obolibrary.org/obo/FOODON_00003194,bartender,vegetarian food material
+http://purl.obolibrary.org/obo/OCCO_35301100,http://purl.obolibrary.org/obo/FOODON_03420116,bartender,organism material
+http://purl.obolibrary.org/obo/OCCO_35303100,http://purl.obolibrary.org/obo/FOODON_00001002,waiter or waitress,food product
+http://purl.obolibrary.org/obo/OCCO_35303100,http://purl.obolibrary.org/obo/FOODON_00001184,waiter or waitress,algae material

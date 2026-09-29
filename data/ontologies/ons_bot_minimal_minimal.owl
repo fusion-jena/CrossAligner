@@ -1,0 +1,614 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/ons.owl#"
+     xml:base="https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/ons.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="https://raw.githubusercontent.com/enpadasi/Ontology-for-Nutritional-Studies/master/ons.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">is part of</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a part and its whole</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000111 xml:lang="en">has part</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">my body has part my brain (continuant parthood, two material entities)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">my stomach has part my stomach cavity (continuant parthood, material entity has part immaterial entity)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this year has part this day (occurrent parthood)</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a core relation that holds between a whole and its part</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Everything has itself as a part. Any part of any part of a thing is itself part of that thing. Two distinct things cannot have each other as a part.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Occurrents are not subject to change and so parthood between occurrents holds for all the times that the part exists. Many continuants are subject to change, so parthood between continuants will only hold at certain times, but this is difficult to specify in OWL. See https://code.google.com/p/obo-relations/wiki/ROAndTime</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Parthood requires the part and the whole to have compatible classes: only an occurrent have an occurrent as part; only a process can have a process as part; only a continuant can have a continuant as part; only an independent continuant can have an independent continuant as part; only a specifically dependent continuant can have a specifically dependent continuant as part; only a generically dependent continuant can have a generically dependent continuant as part. (This list is not exhaustive.)
+
+A continuant cannot have an occurrent as part: use &apos;participates in&apos;. An occurrent cannot have a continuant as part: use &apos;has participant&apos;. An immaterial entity cannot have a material entity as part: use &apos;location of&apos;. An independent continuant cannot have a specifically dependent continuant as part: use &apos;bearer of&apos;. A specifically dependent continuant cannot have an independent continuant as part: use &apos;inheres in&apos;.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002350 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002350">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+        <obo:IAO_0000115>is member of is a mereological relation between a item and a collection.</obo:IAO_0000115>
+        <obo:IAO_0000119>SIO</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">member of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002351 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002351">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <obo:IAO_0000115>has member is a mereological relation between a collection and an item.</obo:IAO_0000115>
+        <obo:IAO_0000119>SIO</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ro.owl"/>
+        <rdfs:label xml:lang="en">has member</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <obo:IAO_0000111 xml:lang="en">material entity</obo:IAO_0000111>
+        <obo:IAO_0000115>An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Elucidation: An independent continuant that is spatially extended whose identity is independent of that of other entities and can be maintained through time.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cob.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/envo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ohmi.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/po.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/stato.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/vo.owl"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <rdfs:label>material entity</rdfs:label>
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+        <obo:IAO_0000115 xml:lang="en">Food material for humans and animals which is processed with the intention that it be consumable as a whole or added to other food products.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://en.wikipedia.org/wiki/Food</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A food product which has as a defining ingredient some plant material.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">plant food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">A seafood product is a vertebrate or invertibrate organism from an aquatic environment.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">animal seafood product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A food product consisting of an edible fungi or mushroom or yeast.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Fungus#In_food"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">fungus food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000115 xml:lang="en">Material which derives from algae (including single-celled microalgae and  multicellular macroalgae).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">algae material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00001248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00001248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00004242"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A fish food product includes products made from any fish species (aquatic vertebrate with gills and fins).</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Fish"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">fish food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00002403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00002403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">Any substance that can be consumed by an organism to satisfy nutritional or other health needs, or to provide a social or organoleptic food experience</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="https://en.wikipedia.org/wiki/Food"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">food</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">foodstuff</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">food material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00003194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00003194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A food product not including meat and animal tissue products (such as gelatin or animal-derived rennet).</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">https://en.wikipedia.org/wiki/Vegetarian_cuisine</obo:IAO_0000119>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <oboInOwl:hasExactSynonym xml:lang="en">vegetarian food</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">vegetarian food material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_00004242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_00004242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A food product that is derived from some animal.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">animal food product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000115 xml:lang="en">Material which is distinguished primarily by the organism(s) it derives from.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">organism material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FOODON_03420164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FOODON_03420164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420116"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">Material that derives from one or more animals</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
+        <rdfs:label xml:lang="en">animal material</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_0000082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_0000082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000007"/>
+        <obo:IAO_0000115 xml:lang="en">A diet prescribed by a physician/ nutritionist to meet specific nutritional needs of a person.</obo:IAO_0000115>
+        <obo:IAO_0000117>ENPADASI_WP4</obo:IAO_0000117>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym xml:lang="en">clinical treatment protocol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">diet therapy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">dietetic diet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">medically proscribed diet</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">clinically prescribed diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FOODON_00002403"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of food types or items which have organoleptic, nutritional, availability, safety, meal time, or socially relevant characteristics with respect to a consuming individual or population.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Diet_(nutrition)</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>http://id.nlm.nih.gov/mesh/D004032</oboInOwl:hasDbXref>
+        <rdfs:comment xml:lang="en">OLD definition: In nutrition, diet is the sum of food consumed by a person or other organism</rdfs:comment>
+        <rdfs:label xml:lang="en">diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000001"/>
+        <obo:IAO_0000115 xml:lang="en">A diet defined by the nutritional presence or absence of types of food bioactive compounds.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">diet by nutritional composition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000001"/>
+        <obo:IAO_0000115 xml:lang="en">A diet which is prescribed to meet some dietary pattern objective for an individual organism or group.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">prescribed diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000001"/>
+        <obo:IAO_0000115 xml:lang="en">A diet defined by the food source organisms it allows or excludes.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">diet by food organism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000019"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001046"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:complementOf>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03420164"/>
+                    </owl:Restriction>
+                </owl:complementOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A diet that excludes all animal products (including fish and seafood).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <obo:IAO_0000119>https://en.wikipedia.org/wiki/Veganism</obo:IAO_0000119>
+        <oboInOwl:hasDbXref>https://www.gs1.org/voc/DietTypeCode-VEGAN</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">vegan diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000019"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001015"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001143"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001184"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00001248"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002351"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_00003194"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A diet which includes vegetarian food as well as fish and seafood.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">pescetarian diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000019"/>
+        <obo:IAO_0000115 xml:lang="en">A diet that excludes food containing swine food products.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>https://www.gs1.org/voc/DietTypeCode-WITHOUT_PORK</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">non-pork diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000005"/>
+        <obo:IAO_0000115 xml:lang="en">A ketogenic diet is a high-fat, low-carbohydrate, adequate-protein diet that mimics a fasting state, resulting in the substitution of ketone bodies as a source of energy. The ketogenic diet can be used to reduce recurrent epileptic seizures in individuals with intractable epilepsy. Intractable epilepsy is defined as epilepsy that failed to respond to three or more antiepileptic drugs. A high-fat, adequate-protein, low-carbohydrate diet. It is primarily used in medicine to treat difficult-to-control epilepsy in children</obo:IAO_0000115>
+        <obo:IAO_0000117> https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <obo:IAO_0000117>Leigh Carmody </obo:IAO_0000117>
+        <obo:IAO_0000119> PMID:27759811 </obo:IAO_0000119>
+        <obo:IAO_0000119> PMID:28701250 </obo:IAO_0000119>
+        <obo:IAO_0000119> https://www.healthdirect.gov.au/ketogenic-diet</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:23419562 </obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">Modified Atkins diet</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ketogenic diet</rdfs:label>
+        <rdfs:seeAlso> PMID:27759811 </rdfs:seeAlso>
+        <rdfs:seeAlso> PMID:28701250 </rdfs:seeAlso>
+        <rdfs:seeAlso> https://www.healthdirect.gov.au/ketogenic-diet</rdfs:seeAlso>
+        <rdfs:seeAlso>PMID:23419562 </rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000005"/>
+        <obo:IAO_0000115 xml:lang="en">Dietary Approaches to Stop Hypertension (DASH) trial, which demonstrated that consuming a diet rich in fruits, vegetables, and low-fat dairy products and reduced in saturated fat and cholesterol</obo:IAO_0000115>
+        <obo:IAO_0000117> https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <obo:IAO_0000117>Leigh Carmody </obo:IAO_0000117>
+        <obo:IAO_0000119>PMID: 29141784</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">DASH diet</rdfs:label>
+        <rdfs:seeAlso> PMID: 29141784</rdfs:seeAlso>
+        <rdfs:seeAlso>https://medlineplus.gov/dasheatingplan.html </rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000005"/>
+        <obo:IAO_0000115 xml:lang="en">Low-carbohydrate diets restrict carbohydrate consumption relative to the average diet. Foods high in carbohydrates (e.g., sugar, bread, pasta) are limited, and replaced with foods containing a higher percentage of fat and protein (e.g., meat, poultry, fish, shellfish, eggs, cheese, nuts, and seeds), as well as low carbohydrate foods (e.g. spinach, kale, chard, collards, and other fibrous vegetables).</obo:IAO_0000115>
+        <obo:IAO_0000117> https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <obo:IAO_0000117>Leigh Carmody </obo:IAO_0000117>
+        <obo:IAO_0000119> https://en.wikipedia.org/wiki/Low-carbohydrate_diet</obo:IAO_0000119>
+        <obo:IAO_0000119>PMID:18635428 </obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym xml:lang="en">Low carbohydrate diet</oboInOwl:hasExactSynonym>
+        <rdfs:label>low-carbohydrate, high-protien, high fat diet</rdfs:label>
+        <rdfs:seeAlso> https://en.wikipedia.org/wiki/Low-carbohydrate_diet</rdfs:seeAlso>
+        <rdfs:seeAlso>PMID:18635428 </rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000005"/>
+        <obo:IAO_0000115 xml:lang="en">A diet which minimises or eliminates the consumption of gluten.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>https://www.gs1.org/voc/DietTypeCode-FREE_FROM_GLUTEN</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">gluten free diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000007"/>
+        <obo:IAO_0000115 xml:lang="en">A diet consisting of halal approved food.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://github.com/FoodOntology/joint-food-ontology-wg</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>https://www.gs1.org/voc/DietTypeCode-HALAL</oboInOwl:hasDbXref>
+        <rdfs:label xml:lang="en">halal diet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ONS_1000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ONS_1000066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ONS_1000005"/>
+        <obo:IAO_0000115 xml:lang="en">the diet characteristic of the lifestyle in isolated/rural areas, commonly in developing countries. It is mainly composed of naturally available food products, including fresh animal protein and vegetables while excluding industrially processed foods. Nevertheless, it is common to use traditional food processing methods to improve nutrient availability, digestibility or to increase conservation time to avoid scarcity. These methods include soaking, fermentation, cooking, pounding, and sprouting.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0001-9125-4337</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">https://orcid.org/0000-0002-0892-7164</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym xml:lang="en">local agrarian diet</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">traditional diet</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">rural diet</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

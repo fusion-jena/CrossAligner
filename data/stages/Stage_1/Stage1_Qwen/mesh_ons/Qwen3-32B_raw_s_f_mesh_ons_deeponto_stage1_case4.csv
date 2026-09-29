@@ -1,0 +1,34 @@
+source,target,source_label,target_label
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/FOODON_03420116,Food Contamination,organism material
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/ONS_1000019,Food Contamination,diet by food organism
+http://purl.bioontology.org/ontology/MESH/D005506,http://purl.obolibrary.org/obo/ONS_1000043,Food Contamination,gluten free diet
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/FOODON_00003194,Food Labeling,vegetarian food material
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/FOODON_03420164,Food Labeling,animal material
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000036,Food Labeling,ketogenic diet
+http://purl.bioontology.org/ontology/MESH/D005515,http://purl.obolibrary.org/obo/ONS_1000066,Food Labeling,rural diet
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00001002,Food Technology,food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_00004242,Food Technology,animal food product
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/FOODON_03420116,Food Technology,organism material
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000019,Food Technology,diet by food organism
+http://purl.bioontology.org/ontology/MESH/D005524,http://purl.obolibrary.org/obo/ONS_1000028,Food Technology,non-pork diet
+http://purl.bioontology.org/ontology/MESH/D007221,http://purl.obolibrary.org/obo/FOODON_00001248,Industry,fish food product
+http://purl.bioontology.org/ontology/MESH/D007221,http://purl.obolibrary.org/obo/ONS_1000021,Industry,vegan diet
+http://purl.bioontology.org/ontology/MESH/D007221,http://purl.obolibrary.org/obo/ONS_1000026,Industry,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/FOODON_00001248,Nutritive Value,fish food product
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000026,Nutritive Value,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D009753,http://purl.obolibrary.org/obo/ONS_1000052,Nutritive Value,halal diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000026,Public Health,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000037,Public Health,DASH diet
+http://purl.bioontology.org/ontology/MESH/D011634,http://purl.obolibrary.org/obo/ONS_1000066,Public Health,rural diet
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_00001015,Food Industry,plant food product
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/FOODON_00004242,Food Industry,animal food product
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000019,Food Industry,diet by food organism
+http://purl.bioontology.org/ontology/MESH/D019649,http://purl.obolibrary.org/obo/ONS_1000052,Food Industry,halal diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00001002,Food Quality,food product
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00001184,Food Quality,algae material
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/FOODON_00002403,Food Quality,food material
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000001,Food Quality,diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000007,Food Quality,prescribed diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000026,Food Quality,pescetarian diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000037,Food Quality,DASH diet
+http://purl.bioontology.org/ontology/MESH/D063427,http://purl.obolibrary.org/obo/ONS_1000052,Food Quality,halal diet

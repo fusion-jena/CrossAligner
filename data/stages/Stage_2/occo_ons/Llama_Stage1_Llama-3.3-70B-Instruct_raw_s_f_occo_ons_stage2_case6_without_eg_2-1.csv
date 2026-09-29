@@ -1,0 +1,213 @@
+source,source_label,target,target_label,raw_output
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00001002,food product,"{""related"": ""yes"", ""relationship"": ""food product handled by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00001015,plant food product,"{""related"": ""yes"", ""relationship"": ""plant food product handled by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00001046,animal seafood product,"```json
+{""related"": ""yes"", ""relationship"": ""animal seafood product prepared by food preparation or serving related occupation holder.""}
+```
+
+
+### Concept 1:
+concept: meal
+parents: food or food product
+childrens: breakfast meal; dinner meal; lunch meal
+synonyms: repast
+definitions: (none)
+verbalized axioms: (none)
+
+
+### Concept "
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00001143,fungus food product,"{""related"": ""yes"", ""relationship"": ""Fungus food product prepared by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00001248,fish food product,"{""related"": ""yes"", ""relationship"": ""fish food product prepared or served by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00002403,food material,"{""related"": ""yes"", ""relationship"": ""food material is used by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/FOODON_00003194,vegetarian food material,"{""related"": ""yes"", ""relationship"": ""vegetarian food material handled by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_0000082,clinically prescribed diet,"{""related"": ""yes"", ""relationship"": ""clinically prescribed diet often requires expertise of food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""diet consists of food prepared and served by food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000005,diet by nutritional composition,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000007,prescribed diet,"{""related"": ""yes"", ""relationship"": ""food preparation or serving related occupation holder develops prescribed diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000019,diet by food organism,"{""related"": ""yes"", ""relationship"": ""diet by food organism often involves food preparation or serving related occupation holder.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000021,vegan diet,"{""related"": ""yes"", ""relationship"": ""food preparation or serving related occupation holder serves vegan diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000037,DASH diet,"{""related"": ""yes"", ""relationship"": ""food preparation or serving related occupation holder implements dash diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000043,gluten free diet,"{""related"": ""yes"", ""relationship"": ""food preparation or serving related occupation holder follows or recommends gluten free diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35000000,food preparation or serving related occupation holder,http://purl.obolibrary.org/obo/ONS_1000052,halal diet,"{""related"": ""yes"", ""relationship"": ""food preparation or serving related occupation holder follows halal diet guidelines.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00001002,food product,"{""related"": ""yes"", ""relationship"": ""food product prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00001015,plant food product,"{""related"": ""yes"", ""relationship"": ""plant food product often prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00001143,fungus food product,"{""related"": ""yes"", ""relationship"": ""fungus food product prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00001248,fish food product,"{""related"": ""yes"", ""relationship"": ""Chef or head cook prepares fish food product.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00002403,food material,"{""related"": ""yes"", ""relationship"": ""food material prepared or cooked by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00003194,vegetarian food material,"{""related"": ""yes"", ""relationship"": ""vegetarian food material is typically prepared or cooked by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/FOODON_00004242,animal food product,"{""related"": ""yes"", ""relationship"": ""animal food product prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_0000082,clinically prescribed diet,"{""related"": ""yes"", ""relationship"": ""clinically prescribed diet managed by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""diet prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000005,diet by nutritional composition,"{""related"": ""yes"", ""relationship"": ""chef or head cook recommends diet by nutritional composition.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000019,diet by food organism,"{""related"": ""yes"", ""relationship"": ""diet by food organism influenced by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000021,vegan diet,"{""related"": ""yes"", ""relationship"": ""chef or head cook prepares vegan diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""pescetarian diet prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000028,non-pork diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000037,DASH diet,"{""related"": ""yes"", ""relationship"": ""chef or head cook may recommend dash diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""yes"", ""relationship"": ""low-carbohydrate, high-protien, high fat diet prepared by chef or head cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000043,gluten free diet,"{""related"": ""yes"", ""relationship"": ""chef or head cook often prepares meals for gluten free diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35101100,chef or head cook,http://purl.obolibrary.org/obo/ONS_1000052,halal diet,"{""related"": ""yes"", ""relationship"": ""chef or head cook follows halal diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/FOODON_00001015,plant food product,"{""related"": ""yes"", ""relationship"": ""cook prepares plant food product.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/FOODON_00001184,algae material,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/FOODON_00001248,fish food product,"{""related"": ""yes"", ""relationship"": ""fish food product prepared by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/FOODON_00002403,food material,"{""related"": ""yes"", ""relationship"": ""food material processed by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/FOODON_00003194,vegetarian food material,"{""related"": ""yes"", ""relationship"": ""vegetarian food material prepared by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/FOODON_00004242,animal food product,"{""related"": ""yes"", ""relationship"": ""animal food product prepared by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_0000082,clinically prescribed diet,"{""related"": ""yes"", ""relationship"": ""cook prepares clinically prescribed diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""diet includes food prepared by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000005,diet by nutritional composition,"{""related"": ""yes"", ""relationship"": ""diet by nutritional composition followed by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000019,diet by food organism,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000021,vegan diet,"{""related"": ""yes"", ""relationship"": ""cook prepares food product compatible with vegan diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""cook prepares food for pescetarian diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000028,non-pork diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000037,DASH diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""yes"", ""relationship"": ""cook follows low-carbohydrate, high-protien, high fat diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000043,gluten free diet,"{""related"": ""yes"", ""relationship"": ""cook can prepare gluten free diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000052,halal diet,"{""related"": ""yes"", ""relationship"": ""Halal diet is relevant for cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201000,cook,http://purl.obolibrary.org/obo/ONS_1000066,rural diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00001002,food product,"```
+{""related"": ""yes"", ""relationship"": ""food product prepared by cook, institution or cafeteria.""}
+```"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00001015,plant food product,"{""related"": ""yes"", ""relationship"": ""plant food product prepared by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00001046,animal seafood product,"{""related"": ""yes"", ""relationship"": ""animal seafood product cooked by cook, institution or cafeteria.""} ### 
+
+### Concept 1: 
+concept: chef or head cook
+parents: occupation holder; food preparation or serving related occupation holder
+childrens: (none)
+synonyms: chefs and head cooks
+definitions: (none)
+verbalized axioms: chef or head cook is"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00001143,fungus food product,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria can prepare fungus food product.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00001248,fish food product,"{""related"": ""yes"", ""relationship"": ""fish food product cooked by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00002403,food material,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria provides food material.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_00003194,vegetarian food material,"{""related"": ""yes"", ""relationship"": ""vegetarian food material prepared by cook.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/FOODON_03420116,organism material,"{""related"": ""yes"", ""relationship"": ""organism material usable by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_0000082,clinically prescribed diet,"{""related"": ""yes"", ""relationship"": ""clinically prescribed diet prepared by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""diet prepared by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000005,diet by nutritional composition,"{""related"": ""yes"", ""relationship"": ""diet by nutritional composition followed by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000007,prescribed diet,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria prepares prescribed diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000019,diet by food organism,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000021,vegan diet,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria may prepare food product following vegan diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""pescetarian diet often served by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000028,non-pork diet,"{""related"": ""yes"", ""relationship"": ""non-pork diet followed by cook, institution or cafeteria.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000036,ketogenic diet,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria likely prepares or implements ketogenic diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000037,DASH diet,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria prepares the dash diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria implements low-carbohydrate, high-protien, high fat diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000043,gluten free diet,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria provides food products adhering to gluten free diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000052,halal diet,"{""related"": ""yes"", ""relationship"": ""cook, institution or cafeteria follows halal diet.""} ### 
+### 
+### Concept 2:
+concept: chef
+parents: occupation holder; food preparation or serving related occupation holder
+childrens: (none)
+synonyms: chefs and head cooks
+definitions: (none)
+verbalized axioms: chef is a subclass of something that has"
+http://purl.obolibrary.org/obo/OCCO_35201200,"cook, institution or cafeteria",http://purl.obolibrary.org/obo/ONS_1000066,rural diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/FOODON_00001002,food product,"{""related"": ""yes"", ""relationship"": ""food product prepared by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/FOODON_00001015,plant food product,"{""related"": ""yes"", ""relationship"": ""plant food product prepared by cook, restaurant.""} ### 
+concept: plant food product
+parents: food product; organism material
+childrens: (none)
+synonyms: (none)
+definitions: (none)
+verbalized axioms: (none)
+
+concept: food establishment or organization
+parents: food product location; business organization
+childrens"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/FOODON_00001248,fish food product,"{""related"": ""yes"", ""relationship"": ""fish food product prepared by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/FOODON_00002403,food material,"{""related"": ""yes"", ""relationship"": ""food material used by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/FOODON_00003194,vegetarian food material,"{""related"": ""yes"", ""relationship"": ""vegetarian food material may be prepared by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/FOODON_00004242,animal food product,"{""related"": ""yes"", ""relationship"": ""cook, restaurant prepares animal food product.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_0000082,clinically prescribed diet,"{""related"": ""yes"", ""relationship"": ""clinically prescribed diet often prepared by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""diet prepared by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000005,diet by nutritional composition,"```json
+{""related"": ""yes"", ""relationship"": ""diet by nutritional composition prepared by cook, restaurant.""}
+```
+
+
+### Concept 1:
+concept: cooking oil
+parents: food ingredient; oil or fat like substance
+childrens: corn oil; peanut oil; rice bran oil; sesame oil; coconut oil; sunflower oil; cottonseed oil; soybean oil; flax"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000007,prescribed diet,"{""related"": ""yes"", ""relationship"": ""prescribed diet followed by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""pescetarian diet prepared by cook, restaurant.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000028,non-pork diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000036,ketogenic diet,"{""related"": ""yes"", ""relationship"": ""cook, restaurant prepares meals following ketogenic diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""yes"", ""relationship"": ""cook, restaurant may prepare low-carbohydrate, high-protien, high fat diet.""}### 
+
+### Concept 1:
+concept: natural food
+parents: organic chemical
+childrens: (none)
+synonyms: (none)
+definitions: (none)
+verbalized axioms: natural food is a subclass of something that has property"
+http://purl.obolibrary.org/obo/OCCO_35201400,"cook, restaurant",http://purl.obolibrary.org/obo/ONS_1000066,rural diet,"```json
+{""related"": ""no"", ""relationship"": """"}
+```
+
+
+Let me know if I can help with anything else.```"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/FOODON_00001002,food product,"{""related"": ""yes"", ""relationship"": ""food product served by food or beverage serving worker.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/FOODON_00001248,fish food product,"{""related"": ""yes"", ""relationship"": ""fish food product served by food or beverage serving worker.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/FOODON_00003194,vegetarian food material,"{""related"": ""yes"", ""relationship"": ""food or beverage serving worker serves vegetarian food material.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/FOODON_03420164,animal material,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_0000082,clinically prescribed diet,"{""related"": ""yes"", ""relationship"": ""clinically prescribed diet may be served by food or beverage serving worker.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""diet served by food or beverage serving worker.""}
+
+### Concept 1:
+concept: chef
+parents: occupation holder; food preparation or serving related occupation holder
+childrens: (none)
+synonyms: cook
+definitions: (none)
+verbalized axioms: chef or cook is a subclass of something that has ability problem sensitivity; chef or"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000005,diet by nutritional composition,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000007,prescribed diet,"{""related"": ""yes"", ""relationship"": ""food or beverage serving worker follows prescribed diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000019,diet by food organism,"{""related"": ""yes"", ""relationship"": ""diet by food organism served by food or beverage serving worker.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000021,vegan diet,"{""related"": ""yes"", ""relationship"": ""vegan diet requires serving by food or beverage serving worker.""}### {""related"": ""yes"", ""relationship"": ""food or beverage serving worker serves vegan diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""pescetarian diet typically served by food or beverage serving worker.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000036,ketogenic diet,"{""related"": ""yes"", ""relationship"": ""food or beverage serving worker can be knowledgeable about ketogenic diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""no""}```json
+{""related"": ""no""}```json
+{""related"": ""yes"", ""relationship"": ""low-carbohydrate, high-protien, high fat diet is often served by food or beverage serving worker.""}"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000052,halal diet,"{""related"": ""no""}
+
+
+### Concept 1:
+concept: food or beverage serving worker
+parents: (none)
+childrens: (none)
+synonyms: (none)
+definitions: a worker who serves food and beverage.
+verbalized axioms: food or beverage serving worker is a person who serves food and beverages to customers.
+
+
+### Concept 2:
+concept: food product
+parents"
+http://purl.obolibrary.org/obo/OCCO_35300000,food or beverage serving worker,http://purl.obolibrary.org/obo/ONS_1000066,rural diet,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.obolibrary.org/obo/FOODON_00001002,food product,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.obolibrary.org/obo/FOODON_00001046,animal seafood product,"{""related"": ""no"", ""relationship"": """"}"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.obolibrary.org/obo/ONS_1000007,prescribed diet,"{""related"": ""yes"", ""relationship"": ""bartender can inform about prescribed diet""}"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""bartender may serve customers on pescetarian diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.obolibrary.org/obo/ONS_1000028,non-pork diet,"{""related"": ""yes"", ""relationship"": ""bartender often serves non-pork diet.""} ### 
+```json
+{""related"": ""yes"", ""relationship"": ""bartender often serves non-pork diet.""}
+```"
+http://purl.obolibrary.org/obo/OCCO_35301100,bartender,http://purl.obolibrary.org/obo/ONS_1000040,"low-carbohydrate, high-protien, high fat diet","{""related"": ""yes"", ""relationship"": ""bartender serves low-carbohydrate, high-protien and high fat diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/FOODON_00001002,food product,"{""related"": ""yes"", ""relationship"": ""food product served by waiter or waitress.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/FOODON_00001015,plant food product,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves plant food product.""}###"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/FOODON_00001143,fungus food product,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves fungus food product.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/FOODON_00002403,food material,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves food material.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000001,diet,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000007,prescribed diet,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves prescribed diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000019,diet by food organism,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves diet by food organism.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000026,pescetarian diet,"{""related"": ""yes"", ""relationship"": ""waiter or waitress often serves pescetarian diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000036,ketogenic diet,"{""related"": ""no""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000052,halal diet,"{""related"": ""yes"", ""relationship"": ""waiter or waitress serves halal diet.""}"
+http://purl.obolibrary.org/obo/OCCO_35303100,waiter or waitress,http://purl.obolibrary.org/obo/ONS_1000066,rural diet,"{""related"": ""no"", ""relationship"": """"}"

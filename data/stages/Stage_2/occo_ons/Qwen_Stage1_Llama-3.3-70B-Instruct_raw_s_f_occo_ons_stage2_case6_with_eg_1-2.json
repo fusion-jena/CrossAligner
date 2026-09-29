@@ -1,0 +1,240 @@
+[
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "target_label": "plant food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A food preparation or serving related occupation holder uses plant food products.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001248",
+    "target_label": "fish food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"holds an occupation related to preparing or serving fish food products\"}{\"related\": \"yes\", \"relationship\": \"holds an occupation related to preparing or serving fish food products\"}```json\n{\"related\": \"yes\", \"relationship\": \"holds an occupation related to preparing or serving fish food products\"}```"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "target_label": "food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Handles food material.\"}\n{\"related\": \"yes\", \"relationship\": \"Prepares food material.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A food preparation or serving related occupation holder may handle vegetarian food material.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420116",
+    "target_label": "organism material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"holds organisms for food preparation\"}{\"related\": \"yes\", \"relationship\": \"uses organism materials for food preparation\"}{\"related\": \"yes\", \"relationship\": \"prepares food from organism materials\"}{\"related\": \"yes\", \"relationship\": \"handles organism materials for food serving\"}{\"related\": \"yes\", \"relationship\": \"cooks food"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "target_label": "diet by nutritional composition",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Concept 1 follows a Concept 2\"}```"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A food preparation or serving related occupation holder recommends a prescribed diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "```json\n{\n \"related\": \"yes\",\n\t\"relationship\": \"food preparation occupation holder follows a low carbohydrate high protein high fat diet\"\n}\n```"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35000000",
+    "source_label": "food preparation or serving related occupation holder",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A food preparation or serving related occupation holder may influence a rural diet\"}```json\n{\"related\": \"yes\", \"relationship\": \"A food preparation or serving related occupation holder may influence a rural diet\"}\n```\n\nIn this answer, a relationship is identified between Concept 1, which is a person holding an occupation related to food preparation or serving,"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001046",
+    "target_label": "animal seafood product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Chef or head cook prepares animal seafood product\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001143",
+    "target_label": "fungus food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Chef creates fungus food product.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "target_label": "food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Chef or head cook uses food material.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.obolibrary.org/obo/ONS_0000082",
+    "target_label": "clinically prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Chef or head cook may provide a clinically prescribed diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "target_label": "halal diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Chef or head cook serves halal diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A chef or head cook may follow a rural diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001046",
+    "target_label": "animal seafood product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook prepares animal seafood product.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "target_label": "food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook prepares food material.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "target_label": "diet by food organism",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook uses diet by food organism.\"} ```\nThe final answer is: $\\boxed{\"related\": \"yes\", \"relationship\": \"Cook prepares diet by food organism.\"}$``\n\nNote: The revised relationship sentence is more specific and direct, conveying that a cook prepares or creates a diet that involves food and organisms. This correction provides a clearer and more"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "target_label": "non-pork diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook may prepare food for a non-pork diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "target_label": "rural diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook prepares rural diet\"}```json\n{\"related\": \"yes\", \"relationship\": \"Cook prepares rural diet\"}``````json\n{\"related\": \"yes\", \"relationship\": \"Cook prepares rural diet\"}```json\n{\"related\": \"yes\", \"relationship\": \"Cook prepares rural diet\"}````\n{\"related\": \"yes\", \""
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201200",
+    "source_label": "cook, institution or cafeteria",
+    "target": "http://purl.obolibrary.org/obo/ONS_0000082",
+    "target_label": "clinically prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"cook provides clinically prescribed diet\"}```"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "source_label": "cook, restaurant",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook prepares food product.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "source_label": "cook, restaurant",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "target_label": "diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook influences diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "source_label": "cook, restaurant",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Cook follows a prescribed diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001143",
+    "target_label": "fungus food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"serves fungus food product\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "target_label": "food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A food or beverage serving worker serves food material.\"}\n\n{\"related\": \"yes\", \"relationship\": \"A food or beverage serving worker handles food material.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "target_label": "animal food product",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "target_label": "prescribed diet",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"A food or beverage serving worker often serves a prescribed diet.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "target_label": "low-carbohydrate, high-protien, high fat diet",
+    "raw_output": "```json\n{\n \"related\": \"yes\",\n\t\"relationship\": \"food or beverage serving worker serves low-carbohydrate, high-protien, high fat diet\"\n}\n```"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35301100",
+    "source_label": "bartender",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "target_label": "food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Bartender serves food material\"}```json\n{\"related\": \"yes\", \"relationship\": \"Bartender serves food material\"}\n```\n\n\nBecause of food or beverage serving worker in parents of concept 1 and concept 2 of food material, it follows directly, logically, practically and meaningfully,  that bartender is the person or the worker"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35301100",
+    "source_label": "bartender",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "target_label": "vegetarian food material",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Bartender prepares vegetarian food material\"}```json\n{\"related\": \"yes\", \"relationship\": \"Bartender serves vegetarian food material\"}```json\n{\"related\": \"yes\", \"relationship\": \"Bartender handles vegetarian food material\"}```json\n{\"related\": \"yes\", \"relationship\": \"Bartender recommends vegetarian food material"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35301100",
+    "source_label": "bartender",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420116",
+    "target_label": "organism material",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35303100",
+    "source_label": "waiter or waitress",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "target_label": "food product",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"The waiter or waitress serves the food product.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35303100",
+    "source_label": "waiter or waitress",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001184",
+    "target_label": "algae material",
+    "raw_output": "{\"related\": \"no\", \"relationship\": \"\"}"
+  }
+]

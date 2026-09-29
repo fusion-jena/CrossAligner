@@ -1,0 +1,29 @@
+# Core data and machine-learning dependencies
+numpy
+pandas
+datasets
+scikit-learn
+tqdm
+
+# Ontology parsing and DeepOnto axiom verbalisation
+owlready2==0.44
+rdflib==7.1.1
+deeponto==0.9.3
+JPype1>=1.5.0,<2.0.0
+
+# Language models and GPU inference
+torch==2.8.0
+transformers==4.56.0
+accelerate>=1.0.0,<2.0.0
+huggingface-hub==0.34.4
+sentence-transformers==5.1.0
+bitsandbytes>=0.45.1,<0.46.0; platform_system == "Linux"
+
+# Alignment methods
+rapidfuzz==3.5.2
+rank_bm25==0.2.2
+pykeen==1.11.1
+openai==1.56.0
+deeponto==0.9.3
+JPype1>=1.5.0,<2.0.0
+accelerate>=1.0.0,<2.0.0

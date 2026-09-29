@@ -1,0 +1,93 @@
+[
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target_label": "Food Technology",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food technology applies knowledge to the field of the chef or head cook.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "source_label": "chef or head cook",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target_label": "Food Industry",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food industry employs chef or head cook\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target_label": "Nutritive Value",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Nutritive value is determined by cooking food.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "source_label": "cook",
+    "target": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target_label": "Food Quality",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food quality is evaluated by a cook.\"}\n{\"related\": \"yes\", \"relationship\": \"A cook evaluates food quality.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201200",
+    "source_label": "cook, institution or cafeteria",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target_label": "Food Technology",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food technology is applied by a cook, institution or cafeteria.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201200",
+    "source_label": "cook, institution or cafeteria",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target_label": "Food Industry",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food industry produces goods for the cook, institution or cafeteria.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "source_label": "cook, restaurant",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target_label": "Food Contamination",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food contamination can affect the cook in a restaurant.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "source_label": "cook, restaurant",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target_label": "Food Labeling",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"food labeling is part of restaurant cooking.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "source_label": "cook, restaurant",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target_label": "Food Industry",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food industry employs cooks in restaurants.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target_label": "Food Contamination",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Concept 2 can be prevented by a Concept 1.\"}```json\n{\"related\": \"yes\", \"relationship\": \"Concept 2 can be prevented by a Concept 1.\"}\n``````json\n{\"related\": \"yes\", \"relationship\": \"Concept 2 can be prevented by a Concept 1.\"}\nI determined that Concept"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "target_label": "Industry",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Industry employs food or beverage serving workers.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "source_label": "food or beverage serving worker",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target_label": "Food Industry",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Concept 2 employs Concept 1.\"}"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35301100",
+    "source_label": "bartender",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target_label": "Food Contamination",
+    "raw_output": "{\"related\": \"yes\", \"relationship\": \"Food contamination can affect the materials handled by a bartender.\"}"
+  }
+]

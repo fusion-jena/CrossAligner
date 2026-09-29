@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "OntoAligner"
+version = "0.0.0"
+description = "OntoAligner: A Comprehensive Modular and Robust Python Toolkit for Ontology Alignment."
+authors = ["Hamed Babaei Giglou <hamedbabaeigiglou@gmail.com>"]
+license="Apache-2.0"
+readme = "README.md"
+homepage = "https://ontoaligner.readthedocs.io/"
+repository = "https://github.com/sciknoworg/OntoAligner/"
+include = ["images/logo-with-background.png"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.14.0"
+numpy = "*"
+pandas = "*"
+datasets = "*"
+scikit-learn = "*"
+tqdm = "*"
+owlready2 = "0.44"
+rdflib = "7.1.1"
+deeponto = "0.9.3"
+JPype1 = ">=1.5.0,<2.0.0"
+torch = "^2.8.0"
+transformers = "^4.56.0"
+accelerate = ">=1.0.0,<2.0.0"
+rapidfuzz = "3.5.2"
+openai = "1.56.0"
+rank_bm25 = "0.2.2"
+huggingface-hub = "^0.34.4"
+sentence-transformers = "^5.1.0"
+bitsandbytes = { version = ">=0.45.1,<1.0.0", markers = "platform_system == 'Linux'" }
+pykeen = "1.11.1"
+
+[tool.poetry.dev-dependencies]
+ruff = "*"
+pre-commit = "*"
+setuptools = "*"
+wheel = "*"
+twine = "*"
+pytest = "*"
+
+[tool.poetry-dynamic-versioning]
+enable = true
+style = "semver"
+source = "attr"
+attr = "ontoaligner.__version__"
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.4.0"]
+build-backend = "poetry_dynamic_versioning.backend"

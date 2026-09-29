@@ -1,0 +1,4 @@
+ontology_pair,ontology_pair_label,llama_only,shared,qwen_only,union,jaccard
+mesh_ons,MeSH–ONS,70,13,20,103,0.1262135922330097
+occo_mesh,OccO–MeSH,32,12,1,45,0.26666666666666666
+occo_ons,OccO–ONS,100,22,12,134,0.16417910447761194

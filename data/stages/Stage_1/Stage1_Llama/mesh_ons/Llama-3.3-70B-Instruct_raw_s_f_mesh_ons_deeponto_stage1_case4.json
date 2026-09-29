@@ -1,0 +1,500 @@
+[
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "source_label": "Food Contamination",
+    "target_label": "food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "source_label": "Food Contamination",
+    "target_label": "animal food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "source_label": "Food Contamination",
+    "target_label": "vegan diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "source_label": "Food Contamination",
+    "target_label": "halal diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "source_label": "Food Labeling",
+    "target_label": "food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "source_label": "Food Labeling",
+    "target_label": "plant food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "source_label": "Food Labeling",
+    "target_label": "vegetarian food material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "source_label": "Food Labeling",
+    "target_label": "animal food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "source_label": "Food Labeling",
+    "target_label": "diet by food organism"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "source_label": "Food Labeling",
+    "target_label": "pescetarian diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "source_label": "Food Labeling",
+    "target_label": "non-pork diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "source_label": "Food Labeling",
+    "target_label": "low-carbohydrate, high-protien, high fat diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "source_label": "Food Labeling",
+    "target_label": "halal diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "source_label": "Food Technology",
+    "target_label": "food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "source_label": "Food Technology",
+    "target_label": "plant food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001046",
+    "source_label": "Food Technology",
+    "target_label": "animal seafood product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001143",
+    "source_label": "Food Technology",
+    "target_label": "fungus food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001248",
+    "source_label": "Food Technology",
+    "target_label": "fish food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00002403",
+    "source_label": "Food Technology",
+    "target_label": "food material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "source_label": "Food Technology",
+    "target_label": "vegetarian food material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "source_label": "Food Technology",
+    "target_label": "animal food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "source_label": "Food Technology",
+    "target_label": "diet by nutritional composition"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "source_label": "Food Technology",
+    "target_label": "prescribed diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "source_label": "Food Technology",
+    "target_label": "vegan diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "source_label": "Food Technology",
+    "target_label": "low-carbohydrate, high-protien, high fat diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "source_label": "Food Technology",
+    "target_label": "halal diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "source_label": "Food Technology",
+    "target_label": "rural diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "source_label": "Industry",
+    "target_label": "vegetarian food material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420164",
+    "source_label": "Industry",
+    "target_label": "animal material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "source_label": "Industry",
+    "target_label": "pescetarian diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "source_label": "Nutritive Value",
+    "target_label": "food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "source_label": "Nutritive Value",
+    "target_label": "plant food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001143",
+    "source_label": "Nutritive Value",
+    "target_label": "fungus food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001184",
+    "source_label": "Nutritive Value",
+    "target_label": "algae material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "source_label": "Nutritive Value",
+    "target_label": "vegetarian food material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "source_label": "Nutritive Value",
+    "target_label": "animal food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420164",
+    "source_label": "Nutritive Value",
+    "target_label": "animal material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "source_label": "Nutritive Value",
+    "target_label": "diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "source_label": "Nutritive Value",
+    "target_label": "diet by nutritional composition"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "source_label": "Nutritive Value",
+    "target_label": "prescribed diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "source_label": "Nutritive Value",
+    "target_label": "diet by food organism"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "source_label": "Nutritive Value",
+    "target_label": "pescetarian diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "source_label": "Nutritive Value",
+    "target_label": "non-pork diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000036",
+    "source_label": "Nutritive Value",
+    "target_label": "ketogenic diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "source_label": "Nutritive Value",
+    "target_label": "low-carbohydrate, high-protien, high fat diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000043",
+    "source_label": "Nutritive Value",
+    "target_label": "gluten free diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "source_label": "Nutritive Value",
+    "target_label": "rural diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "target": "http://purl.obolibrary.org/obo/ONS_0000082",
+    "source_label": "Public Health",
+    "target_label": "clinically prescribed diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "source_label": "Public Health",
+    "target_label": "diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "source_label": "Public Health",
+    "target_label": "diet by nutritional composition"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "source_label": "Public Health",
+    "target_label": "prescribed diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000036",
+    "source_label": "Public Health",
+    "target_label": "ketogenic diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D011634",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "source_label": "Public Health",
+    "target_label": "low-carbohydrate, high-protien, high fat diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "source_label": "Food Industry",
+    "target_label": "food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "source_label": "Food Industry",
+    "target_label": "plant food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001046",
+    "source_label": "Food Industry",
+    "target_label": "animal seafood product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00004242",
+    "source_label": "Food Industry",
+    "target_label": "animal food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420116",
+    "source_label": "Food Industry",
+    "target_label": "organism material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420164",
+    "source_label": "Food Industry",
+    "target_label": "animal material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "source_label": "Food Industry",
+    "target_label": "diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "source_label": "Food Industry",
+    "target_label": "diet by nutritional composition"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000007",
+    "source_label": "Food Industry",
+    "target_label": "prescribed diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000019",
+    "source_label": "Food Industry",
+    "target_label": "diet by food organism"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "source_label": "Food Industry",
+    "target_label": "vegan diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "source_label": "Food Industry",
+    "target_label": "pescetarian diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "source_label": "Food Industry",
+    "target_label": "non-pork diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000037",
+    "source_label": "Food Industry",
+    "target_label": "DASH diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "source_label": "Food Industry",
+    "target_label": "halal diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "source_label": "Food Industry",
+    "target_label": "rural diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001002",
+    "source_label": "Food Quality",
+    "target_label": "food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001015",
+    "source_label": "Food Quality",
+    "target_label": "plant food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00001248",
+    "source_label": "Food Quality",
+    "target_label": "fish food product"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/FOODON_00003194",
+    "source_label": "Food Quality",
+    "target_label": "vegetarian food material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/FOODON_03420116",
+    "source_label": "Food Quality",
+    "target_label": "organism material"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000001",
+    "source_label": "Food Quality",
+    "target_label": "diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000005",
+    "source_label": "Food Quality",
+    "target_label": "diet by nutritional composition"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000021",
+    "source_label": "Food Quality",
+    "target_label": "vegan diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000026",
+    "source_label": "Food Quality",
+    "target_label": "pescetarian diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000028",
+    "source_label": "Food Quality",
+    "target_label": "non-pork diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000036",
+    "source_label": "Food Quality",
+    "target_label": "ketogenic diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000040",
+    "source_label": "Food Quality",
+    "target_label": "low-carbohydrate, high-protien, high fat diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000052",
+    "source_label": "Food Quality",
+    "target_label": "halal diet"
+  },
+  {
+    "source": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "target": "http://purl.obolibrary.org/obo/ONS_1000066",
+    "source_label": "Food Quality",
+    "target_label": "rural diet"
+  }
+]

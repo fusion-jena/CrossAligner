@@ -1,0 +1,14 @@
+source,target,source_label,target_label
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.bioontology.org/ontology/MESH/D005524,chef or head cook,Food Technology
+http://purl.obolibrary.org/obo/OCCO_35101100,http://purl.bioontology.org/ontology/MESH/D019649,chef or head cook,Food Industry
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.bioontology.org/ontology/MESH/D009753,cook,Nutritive Value
+http://purl.obolibrary.org/obo/OCCO_35201000,http://purl.bioontology.org/ontology/MESH/D063427,cook,Food Quality
+http://purl.obolibrary.org/obo/OCCO_35201200,http://purl.bioontology.org/ontology/MESH/D005524,"cook, institution or cafeteria",Food Technology
+http://purl.obolibrary.org/obo/OCCO_35201200,http://purl.bioontology.org/ontology/MESH/D019649,"cook, institution or cafeteria",Food Industry
+http://purl.obolibrary.org/obo/OCCO_35201400,http://purl.bioontology.org/ontology/MESH/D005506,"cook, restaurant",Food Contamination
+http://purl.obolibrary.org/obo/OCCO_35201400,http://purl.bioontology.org/ontology/MESH/D005515,"cook, restaurant",Food Labeling
+http://purl.obolibrary.org/obo/OCCO_35201400,http://purl.bioontology.org/ontology/MESH/D019649,"cook, restaurant",Food Industry
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.bioontology.org/ontology/MESH/D005506,food or beverage serving worker,Food Contamination
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.bioontology.org/ontology/MESH/D007221,food or beverage serving worker,Industry
+http://purl.obolibrary.org/obo/OCCO_35300000,http://purl.bioontology.org/ontology/MESH/D019649,food or beverage serving worker,Food Industry
+http://purl.obolibrary.org/obo/OCCO_35301100,http://purl.bioontology.org/ontology/MESH/D005506,bartender,Food Contamination

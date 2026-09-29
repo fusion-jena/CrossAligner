@@ -1,0 +1,80 @@
+[
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "chef or head cook",
+    "target_label": "Food Technology"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35101100",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "chef or head cook",
+    "target_label": "Food Industry"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "target": "http://purl.bioontology.org/ontology/MESH/D009753",
+    "source_label": "cook",
+    "target_label": "Nutritive Value"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201000",
+    "target": "http://purl.bioontology.org/ontology/MESH/D063427",
+    "source_label": "cook",
+    "target_label": "Food Quality"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201200",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005524",
+    "source_label": "cook, institution or cafeteria",
+    "target_label": "Food Technology"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201200",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "cook, institution or cafeteria",
+    "target_label": "Food Industry"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "cook, restaurant",
+    "target_label": "Food Contamination"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005515",
+    "source_label": "cook, restaurant",
+    "target_label": "Food Labeling"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35201400",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "cook, restaurant",
+    "target_label": "Food Industry"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "food or beverage serving worker",
+    "target_label": "Food Contamination"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "target": "http://purl.bioontology.org/ontology/MESH/D007221",
+    "source_label": "food or beverage serving worker",
+    "target_label": "Industry"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35300000",
+    "target": "http://purl.bioontology.org/ontology/MESH/D019649",
+    "source_label": "food or beverage serving worker",
+    "target_label": "Food Industry"
+  },
+  {
+    "source": "http://purl.obolibrary.org/obo/OCCO_35301100",
+    "target": "http://purl.bioontology.org/ontology/MESH/D005506",
+    "source_label": "bartender",
+    "target_label": "Food Contamination"
+  }
+]

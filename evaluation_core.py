@@ -56,11 +56,18 @@ def pair_key(source, target) -> str:
 
 
 def _load_ontologies(root: Path):
+    #files = {
+     #   "mesh": root / "data/ontologies/mesh_food_subset_bot_minimal_minimal.owl",
+      #  "occo": root / "data/ontologies/occo_food_service_bot_minimal_minimal.owl",
+       # "ons": root / "data/ontologies/ons_bot_minimal_minimal.owl",
+    #}
+
     files = {
-        "mesh": root / "data/ontologies/mesh_food_subset_bot_minimal_minimal.owl",
-        "occo": root / "data/ontologies/occo_food_service_bot_minimal_minimal.owl",
-        "ons": root / "data/ontologies/ons_bot_minimal_minimal.owl",
+        "mesh": root / "assets/food-onto/mesh.owl",
+        "occo": root / "assets/food-onto/occo.owl",
+        "ons": root / "assets/food-onto/ons.owl",
     }
+
     labels = {"mesh":"MeSH", "occo":"OccO", "ons":"ONS"}
     rows=[]; lookup={}; by_label={}; evidence=[]
     for ont, path in files.items():

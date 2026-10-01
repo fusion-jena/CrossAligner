@@ -1,0 +1,26 @@
+comparison_type,contrast,run_a,run_b,ontology_pair,ontology_pair_label,stage1_model,comparable_pairs,agreement,decision_change_rate,cohen_kappa,yes_yes,yes_no,no_yes,no_no
+direction,without examples: 1→2 vs 2→1,MO_L_E0_D12,MO_L_E0_D21,mesh_ons,MeSH–ONS,Llama,83,0.9397590361445783,0.06024096385542166,0.5157526254375732,75,4,1,3
+direction,with examples: 1→2 vs 2→1,MO_L_E1_D12,MO_L_E1_D21,mesh_ons,MeSH–ONS,Llama,83,0.8795180722891566,0.12048192771084343,-0.06410256410256408,73,5,5,0
+examples,direction 1-2: without vs with examples,MO_L_E0_D12,MO_L_E1_D12,mesh_ons,MeSH–ONS,Llama,83,0.9156626506024096,0.08433734939759041,0.17821782178217857,75,4,3,1
+examples,direction 2-1: without vs with examples,MO_L_E0_D21,MO_L_E1_D21,mesh_ons,MeSH–ONS,Llama,83,0.9036144578313253,0.09638554216867468,0.2829373650107991,73,3,5,2
+direction,without examples: 1→2 vs 2→1,MO_Q_E0_D12,MO_Q_E0_D21,mesh_ons,MeSH–ONS,Qwen,33,0.8484848484848485,0.1515151515151515,0.21800947867298545,27,1,4,1
+direction,with examples: 1→2 vs 2→1,MO_Q_E1_D12,MO_Q_E1_D21,mesh_ons,MeSH–ONS,Qwen,33,0.8787878787878788,0.12121212121212122,0.27472527472527414,28,1,3,1
+examples,direction 1-2: without vs with examples,MO_Q_E0_D12,MO_Q_E1_D12,mesh_ons,MeSH–ONS,Qwen,33,0.9090909090909091,0.09090909090909094,0.6147859922178985,27,1,2,3
+examples,direction 2-1: without vs with examples,MO_Q_E0_D21,MO_Q_E1_D21,mesh_ons,MeSH–ONS,Qwen,33,0.9393939393939394,0.06060606060606055,0.4677419354838713,30,1,1,1
+stage1_selector,"without examples, direction 1-2: Llama-S1 vs Qwen-S1",MO_L_E0_D12,MO_Q_E0_D12,mesh_ons,MeSH–ONS,Llama vs Qwen,13,1.0,0.0,,13,0,0,0
+stage1_selector,"without examples, direction 2-1: Llama-S1 vs Qwen-S1",MO_L_E0_D21,MO_Q_E0_D21,mesh_ons,MeSH–ONS,Llama vs Qwen,13,1.0,0.0,,13,0,0,0
+stage1_selector,"with examples, direction 1-2: Llama-S1 vs Qwen-S1",MO_L_E1_D12,MO_Q_E1_D12,mesh_ons,MeSH–ONS,Llama vs Qwen,13,0.9230769230769231,0.07692307692307687,0.0,12,0,1,0
+stage1_selector,"with examples, direction 2-1: Llama-S1 vs Qwen-S1",MO_L_E1_D21,MO_Q_E1_D21,mesh_ons,MeSH–ONS,Llama vs Qwen,13,1.0,0.0,,13,0,0,0
+direction,without examples: 1→2 vs 2→1,OM_Q_E0_D12,OM_Q_E0_D21,occo_mesh,OccO–MeSH,Qwen,13,1.0,0.0,,13,0,0,0
+direction,with examples: 1→2 vs 2→1,OM_Q_E1_D12,OM_Q_E1_D21,occo_mesh,OccO–MeSH,Qwen,13,1.0,0.0,,13,0,0,0
+examples,direction 1-2: without vs with examples,OM_Q_E0_D12,OM_Q_E1_D12,occo_mesh,OccO–MeSH,Qwen,13,1.0,0.0,,13,0,0,0
+examples,direction 2-1: without vs with examples,OM_Q_E0_D21,OM_Q_E1_D21,occo_mesh,OccO–MeSH,Qwen,13,1.0,0.0,,13,0,0,0
+direction,without examples: 1→2 vs 2→1,OO_L_E0_D12,OO_L_E0_D21,occo_ons,OccO–ONS,Llama,121,0.859504132231405,0.14049586776859502,0.4077166714655916,96,12,5,8
+examples,direction 1-2: without vs with examples,OO_L_E0_D12,OO_L_E1_D12,occo_ons,OccO–ONS,Llama,122,0.860655737704918,0.139344262295082,0.2921501706484638,100,9,8,5
+direction,without examples: 1→2 vs 2→1,OO_Q_E0_D12,OO_Q_E0_D21,occo_ons,OccO–ONS,Qwen,34,0.8823529411764706,0.11764705882352944,0.5342465753424658,27,3,1,3
+direction,with examples: 1→2 vs 2→1,OO_Q_E1_D12,OO_Q_E1_D21,occo_ons,OccO–ONS,Qwen,34,0.8823529411764706,0.11764705882352944,0.5436241610738255,27,4,0,3
+examples,direction 1-2: without vs with examples,OO_Q_E0_D12,OO_Q_E1_D12,occo_ons,OccO–ONS,Qwen,34,0.9117647058823529,0.08823529411764708,0.5233644859813081,29,1,2,2
+examples,direction 2-1: without vs with examples,OO_Q_E0_D21,OO_Q_E1_D21,occo_ons,OccO–ONS,Qwen,34,0.9117647058823529,0.08823529411764708,0.7150837988826816,26,2,1,5
+stage1_selector,"without examples, direction 1-2: Llama-S1 vs Qwen-S1",OO_L_E0_D12,OO_Q_E0_D12,occo_ons,OccO–ONS,Llama vs Qwen,22,1.0,0.0,,22,0,0,0
+stage1_selector,"without examples, direction 2-1: Llama-S1 vs Qwen-S1",OO_L_E0_D21,OO_Q_E0_D21,occo_ons,OccO–ONS,Llama vs Qwen,21,0.8095238095238095,0.19047619047619047,0.2758620689655177,16,0,4,1
+stage1_selector,"with examples, direction 1-2: Llama-S1 vs Qwen-S1",OO_L_E1_D12,OO_Q_E1_D12,occo_ons,OccO–ONS,Llama vs Qwen,22,0.9545454545454546,0.045454545454545414,0.0,21,0,1,0

@@ -1,0 +1,7 @@
+stage1_model,ontology_pair,ontology_pair_label,pair_universe,candidate_pairs,candidate_selection_rate,exact_reference_pairs,exact_reference_retained,exact_reference_coverage,expanded_reference_pairs,expanded_reference_retained,expanded_reference_coverage
+Llama,mesh_ons,MeSH–ONS,200,83,0.415,28,17,0.6071428571428571,28,17,0.6071428571428571
+Llama,occo_mesh,OccO–MeSH,64,44,0.6875,20,16,0.8,20,16,0.8
+Llama,occo_ons,OccO–ONS,200,122,0.61,38,28,0.7368421052631579,58,42,0.7241379310344828
+Qwen,mesh_ons,MeSH–ONS,200,33,0.165,28,4,0.14285714285714285,28,4,0.14285714285714285
+Qwen,occo_mesh,OccO–MeSH,64,13,0.203125,20,6,0.3,20,6,0.3
+Qwen,occo_ons,OccO–ONS,200,34,0.17,38,7,0.18421052631578946,58,10,0.1724137931034483

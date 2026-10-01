@@ -112,4 +112,4 @@ The generated filename records the Stage-1 model, Stage-2 model, ontology pair, 
 
 CrossAligner builds on OntoAligner by Babaei Giglou et al. The original copyright notices are retained in inherited files.
 
-The project is distributed under the Apache License 2.0. See [LICENSE](LICENSE), [CONTRIBUTING.md](CONTRIBUTING.md), and [CITATION.cff](CITATION.cff).
+The project is distributed under the Apache License 2.0. 

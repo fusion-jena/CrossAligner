@@ -1,10 +1,10 @@
 # CrossAligner
 
-CrossAligner is a two-stage, large-language-model pipeline for discovering directed semantic bridges between ontologies developed from different perspectives. This repository extends the [OntoAligner](https://github.com/sciknoworg/OntoAligner) toolkit with candidate filtering, DeepOnto axiom verbalisation, configurable Stage-2 prompts, and experiments for three food-domain ontology pairs.
+CrossAligner, a two-stage LLM-based methodology for discovering directed semantic bridges across three food-domain ontologies.
 
 ## Pipeline overview
 
-1. **Stage 1 — candidate selection:** an LLM performs binary screening and retains concept pairs that may be semantically related.
+1. **Stage 1 — candidate selection:** an LLM performs binary screening and retains concept pairs that are semantically related.
 2. **Stage 2 — semantic-bridge generation:** an LLM reassesses the retained pairs using richer ontology context and produces a directed natural-language relationship.
 
 The included experiments cover:
@@ -34,28 +34,19 @@ CrossAligner/
 
 The experimental configuration was developed for:
 
-- Linux
 - Python 3.10 or 3.11
 - an NVIDIA CUDA GPU
 - Java 11 for DeepOnto/OWLAPI
 - a Hugging Face account with access to the selected gated model
 
-The Slurm scripts request one GPU, eight CPUs, and 128 GB RAM. Adjust the `#SBATCH` settings for another cluster.
 
-Create an isolated environment:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install --upgrade pip
-pip install -r requirements.txt
-pip install -e . --no-deps
 ```
-
 Check Java and the package import:
 
 ```bash
 java -version
+
+pip install -r requirements.txt
 
 python - <<'PY'
 from ontoaligner.pipeline import OntoAlignerPipeline
@@ -63,25 +54,6 @@ from ontoaligner.encoder import ConceptCandidateLLMEncoder, ConceptLLMEncoder
 
 print("CrossAligner imports succeeded.")
 PY
-```
-
-## Hugging Face token
-
-Do not write a Hugging Face token inside a Bash file. Export it in the shell before submitting a job:
-
-```bash
-export HF_TOKEN="your_hugging_face_token"
-```
-
-The job scripts copy this value to `HUGGINGFACE_HUB_TOKEN`. They stop with a clear error when `HF_TOKEN` is missing.
-
-Consequently, ontology and result paths are relative to the clone itself. No username-specific path such as `/vast/<user>/...` is required.
-
-Slurm must create its output file before the script starts, so create `logs/` and submit jobs from the repository root:
-
-```bash
-cd "$(git rev-parse --show-toplevel)"
-mkdir -p logs
 ```
 
 ## Running Stage 1

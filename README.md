@@ -21,13 +21,19 @@ Stage 2 supports source-to-target and target-to-source directions, each with zer
 CrossAligner/
 ├── assets/food-onto/       # MeSH, OccO, and ONS ontology modules
 ├── bash/                   # Slurm scripts for Stage 1 and Stage 2
-├── ontoaligner/            # Python package and pipeline implementation
+├── data/ground_truth/      # Expert reference mappings
+├── ontoaligner/            # Pipeline implementation
 ├── results/
-│   ├── Stage_1/            # Candidate pairs
-│   └── Stage_2/            # Directed semantic-bridge outputs
-├── evaluation/             # Evaluation notebook, tables, and figures
+│   ├── Stage_1/            # Candidate-selection outputs
+│   ├── Stage_2/            # Semantic-bridge outputs
+│   └── CrossAligner_Evaluation_results/
+│       ├── figures/        # Generated evaluation figures
+│       └── tables/         # Generated evaluation tables
+├── evaluation/
+│   └── CrossAligner_Evaluation_3RQs_EXECUTED.ipynb
+├── evaluation_core.py      # Evaluation functions and metrics
 ├── requirements.txt
-└── setup.py
+└── pyproject.toml
 ```
 
 ## Requirements
@@ -39,21 +45,16 @@ The experimental configuration was developed for:
 - Java 11 for DeepOnto/OWLAPI
 - a Hugging Face account with access to the selected gated model
 
+Install the required packages:
+    pip install -r requirements.txt
 
 ```
-Check Java and the package import:
+Check Java and the CrossAligner imports:
 
-```bash
+```
 java -version
-
-pip install -r requirements.txt
-
-python - <<'PY'
 from ontoaligner.pipeline import OntoAlignerPipeline
 from ontoaligner.encoder import ConceptCandidateLLMEncoder, ConceptLLMEncoder
-
-print("CrossAligner imports succeeded.")
-PY
 ```
 
 ## Running Stage 1
@@ -66,7 +67,7 @@ sbatch bash/Qwen3-32B-raw_s_f_DeepOnto_occo_mesh_stage1.bash
 sbatch bash/Qwen3-32B-raw_s_f_DeepOnto_occo_ons_stage1.bash
 ```
 
-Stage-1 JSON and CSV files are written below:
+Stage 1 writes JSON and CSV outputs to:
 
 ```text
 results/Stage_1/<model>/<ontology_pair>/
@@ -104,6 +105,22 @@ Stage-2 outputs are stored below:
 
 ```text
 results/Stage_2/<ontology_pair>/
+```
+
+## Running the evaluation:
+The evaluation reads the Stage 1 and Stage 2 outputs directly from:
+
+```
+results/Stage_1/
+results/Stage_2/
+```
+
+Run the notebook evaluation/CrossAligner_Evaluation_3RQs_EXECUTED.ipynb. Generated evaluation tables and figures are written to:
+
+```
+results/CrossAligner_Evaluation_results/
+├── figures/
+└── tables/
 ```
 
 The generated filename records the Stage-1 model, Stage-2 model, ontology pair, prompt mode, and direction.

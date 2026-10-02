@@ -98,7 +98,6 @@ def format_concept_definition_context(owl: Dict[str, Any]) -> str:
         f"Definition: {definition}\n"
         f"Restrictions: {restrictions}"
     )
-    )
 
 
 def format_concept_prompt_context(owl: Dict[str, Any]) -> str:

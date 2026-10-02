@@ -10,7 +10,7 @@
 #SBATCH --exclude=gpu013
 #SBATCH --output=logs/%x-%j.out
 #SBATCH --error=logs/%x-%j.err
-#SBATCH --mail-user=divyasha.sunil.naik@uni-jena.de
+#SBATCH --mail-user=""
 #SBATCH --mail-type=ALL
 
 set -euo pipefail

@@ -379,7 +379,8 @@ def _stage1(root: Path, exact, expanded):
     }
     for model in MODEL_ORDER:
         for pair in PAIR_ORDER:
-            folder=root/f"data/stages/Stage_1/Stage1_{model}/{pair}"
+            #folder=root/f"data/stages/Stage_1/Stage1_{model}/{pair}"
+            folder = root /"results"/"Stage_1"/model/pair
             stem=names[model].format(pair=pair)
             csvp=folder/f"{stem}.csv"; jsonp=folder/f"{stem}.json"
             df=pd.read_csv(csvp).copy()
@@ -400,7 +401,8 @@ def _stage1(root: Path, exact, expanded):
     stage1_rows=pd.concat(all_rows,ignore_index=True)
     manifest=pd.DataFrame(manifests)
     metrics=[]
-    ontology_n={"mesh":13,"occo":52,"ons":26}
+    #ontology_n={"mesh":13,"occo":52,"ons":26}
+    ontology_n = {"mesh":8,"occo":8,"ons":25}
     for model in MODEL_ORDER:
         for pair in PAIR_ORDER:
             so,to=PAIR_ONTOLOGIES[pair]; s=sets[(pair,model)]
@@ -552,7 +554,10 @@ def _stage2(root: Path, stage1_sets, exact, expanded):
                 for dr in DIRECTION_ORDER:
                     rid=_run_id(pair,model,ex,dr)
                     stem=f"{model}_Stage1_{STAGE2_MODEL}_raw_s_f_{pair}_stage2_case6_{'without_eg' if ex=='without' else 'with_eg'}_{dr}"
-                    csvp=root/f"data/stages/Stage_2/{pair}/{stem}.csv"; jsonp=root/f"data/stages/Stage_2/{pair}/{stem}.json"
+                    #csvp=root/f"data/stages/Stage_2/{pair}/{stem}.csv"; jsonp=root/f"data/stages/Stage_2/{pair}/{stem}.json"
+                    folder = root / "results" / "Stage_2" / pair
+                    csvp = folder / f"{stem}.csv"
+                    jsonp = folder / f"{stem}.json"
                     status='missing_file'; note='No corresponding CSV file is present.'; df=pd.DataFrame(); pset=set(); jpairs=set();jcount=0
                     if csvp.exists():
                         try: df=pd.read_csv(csvp)

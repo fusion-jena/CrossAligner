@@ -1,0 +1,4 @@
+ontology_pair,ontology_pair_label,grouped_rows,rows_with_reviewer_agreement,rows_missing_reviewer_agreement,direction_label_anomalies,exact_pair_reference,expanded_pair_reference,verified_negative_pairs,primary_use,unsupported_claims
+mesh_ons,MeSH–ONS,11,10,1,9,28,28,0,positive pair-level support/retention,"precision, accuracy, F1, exhaustive false-positive counts"
+occo_mesh,OccO–MeSH,5,5,0,0,22,22,0,positive pair-level support/retention,"precision, accuracy, F1, exhaustive false-positive counts"
+occo_ons,OccO–ONS,5,3,2,0,38,58,0,positive pair-level support/retention,"precision, accuracy, F1, exhaustive false-positive counts"
